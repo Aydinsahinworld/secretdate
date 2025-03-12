@@ -3,6 +3,7 @@ import '../models/content_item.dart';
 import '../widgets/content_card.dart';
 import '../data/sample_data.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import '../screens/game_screen.dart';
 
 class ContentScreen extends StatefulWidget {
   final ContentType type;
@@ -33,6 +34,7 @@ class ContentScreenState extends State<ContentScreen> {
     _loadItems();
     _loadCompletedLevels();
     _pageController = PageController(initialPage: _currentPage);
+    _calculateAndSaveCharisma();
   }
 
   @override
@@ -214,6 +216,165 @@ class ContentScreenState extends State<ContentScreen> {
     }
   }
 
+  // Toplam kalpleri hesaplayan metod
+  Future<int> _calculateTotalHearts() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final gender = widget.isMale ? 'male' : 'female';
+      final type = widget.type.toString().split('.').last.toLowerCase();
+      int totalHearts = 0;
+
+      // Tüm kayıtlı anahtarları kontrol et
+      final allKeys = prefs.getKeys();
+      final heartKeys = allKeys.where((key) => 
+        key.startsWith('${gender}_${type}') && key.endsWith('_hearts')
+      );
+
+      // Her anahtardan kalp sayısını oku ve topla
+      for (final key in heartKeys) {
+        final hearts = prefs.getInt(key) ?? 0;
+        totalHearts += hearts;
+      }
+
+      return totalHearts;
+    } catch (e) {
+      print('Toplam kalp hesaplama hatası: $e');
+      return 0;
+    }
+  }
+
+  // Karizma puanını hesaplayan ve kaydeden metod
+  Future<void> _calculateAndSaveCharisma() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final gender = widget.isMale ? 'male' : 'female';
+      final type = widget.type.toString().split('.').last.toLowerCase();
+      int totalCharisma = 0;
+
+      // Tüm kayıtlı kalp anahtarlarını kontrol et
+      final allKeys = prefs.getKeys();
+      final heartKeys = allKeys.where((key) => 
+        key.startsWith('${gender}_${type}') && key.endsWith('_hearts')
+      );
+
+      // Her bölümdeki kalp sayısını al ve karizma puanını hesapla (her kalp 5 puan)
+      for (final key in heartKeys) {
+        final hearts = prefs.getInt(key) ?? 0;
+        totalCharisma += hearts * 5;
+      }
+
+      // Karizma puanını kaydet
+      final charismaKey = '${gender}_${type}_charisma';
+      await prefs.setInt(charismaKey, totalCharisma);
+      print('Karizma puanı kaydedildi: $totalCharisma (Key: $charismaKey)');
+    } catch (e) {
+      print('Karizma hesaplama hatası: $e');
+    }
+  }
+
+  // Karizma puanını okuyan metod
+  Future<int> _getCharismaPoints() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final gender = widget.isMale ? 'male' : 'female';
+      final type = widget.type.toString().split('.').last.toLowerCase();
+      final charismaKey = '${gender}_${type}_charisma';
+      
+      // Önce puanı hesapla ve kaydet
+      await _calculateAndSaveCharisma();
+      
+      // Sonra kaydedilen puanı oku
+      final charisma = prefs.getInt(charismaKey) ?? 0;
+      print('Okunan karizma puanı: $charisma (Key: $charismaKey)');
+      return charisma;
+    } catch (e) {
+      print('Karizma okuma hatası: $e');
+      return 0;
+    }
+  }
+
+  // Bir sayfa için gereken minimum kalp sayısını hesaplar
+  int _getRequiredHeartsForPage(int pageNumber) {
+    if (pageNumber <= 0) return 0; // İlk sayfa için kalp gerekmez
+    // Önceki sayfaların toplam bölüm sayısı x ortalama kalp sayısı (3)
+    return pageNumber * _itemsPerPage * 3;
+  }
+
+  // Oyuncunun toplam kalplerini kontrol eder ve yeterli mi değil mi bakar
+  Future<bool> _hasEnoughHeartsForPage(int pageNumber) async {
+    if (pageNumber == 0) return true; // İlk sayfa her zaman açık
+    final totalHearts = await _calculateTotalHearts();
+    final requiredHearts = _getRequiredHeartsForPage(pageNumber);
+    return totalHearts >= requiredHearts;
+  }
+
+  // Eksik kalp sayısını hesaplar
+  Future<int> _getMissingHeartsCount(int pageNumber) async {
+    final totalHearts = await _calculateTotalHearts();
+    final requiredHearts = _getRequiredHeartsForPage(pageNumber);
+    return requiredHearts - totalHearts;
+  }
+
+  // Yeni uyarı dialogu
+  void _showInsufficientHeartsDialog(int pageNumber, int missingHearts) {
+    showDialog(
+      context: context,
+      builder: (context) => Dialog(
+        backgroundColor: Colors.transparent,
+        child: Container(
+          padding: const EdgeInsets.all(24),
+          decoration: BoxDecoration(
+            color: Colors.black.withOpacity(0.95),
+            borderRadius: BorderRadius.circular(20),
+            border: Border.all(
+              color: widget.type.color.withOpacity(0.5),
+              width: 2,
+            ),
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const Icon(
+                Icons.favorite_border,
+                color: Colors.red,
+                size: 48,
+              ),
+              const SizedBox(height: 16),
+              const Text(
+                'Yetersiz Kalp!',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(height: 12),
+              Text(
+                'Bu bölümü oynamak için önceki bölümlerden\n$missingHearts kalp daha toplamanız gerekiyor.',
+                style: const TextStyle(
+                  color: Colors.white70,
+                  fontSize: 16,
+                ),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 24),
+              TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: const Text(
+                  'Anladım',
+                  style: TextStyle(
+                    color: Colors.white54,
+                    fontSize: 14,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
   Widget _buildPages(List<ContentItem> allItems) {
     final int totalPages = (allItems.length / _itemsPerPage).ceil();
     final pages = List.generate(totalPages, (pageIndex) {
@@ -253,7 +414,9 @@ class ContentScreenState extends State<ContentScreen> {
                         opacity: isLocked ? 0.5 : 1.0,
                         child: ContentCard(
                           item: item,
-                          onTap: isLocked ? () => _showLockedLevelDialog() : null,
+                          onTap: isLocked 
+                            ? () => _showLockedLevelDialog() 
+                            : null,
                           isMale: widget.isMale,
                           isLocked: isLocked,
                           isCompleted: isCompleted,
@@ -298,6 +461,19 @@ class ContentScreenState extends State<ContentScreen> {
   // Aktif overlay'i kaydetmek için metod
   void setActiveOverlay(OverlayEntry? overlay) {
     _activeOverlay = overlay;
+  }
+
+  // Oyunu başlatmak için public metod
+  Future<bool> checkAndStartGame(ContentItem item) async {
+    final currentPage = (item.level - 1) ~/ _itemsPerPage;
+    
+    if (await _hasEnoughHeartsForPage(currentPage)) {
+      return true;
+    } else {
+      final missingHearts = await _getMissingHeartsCount(currentPage);
+      _showInsufficientHeartsDialog(currentPage, missingHearts);
+      return false;
+    }
   }
 
   // Aktif overlay'i kapatmak için metod
@@ -408,61 +584,73 @@ class ContentScreenState extends State<ContentScreen> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           // Toplam Kalp
-                          Row(
-                            children: [
-                              const Icon(
-                                Icons.favorite,
-                                color: Colors.red,
-                                size: 24,
-                              ),
-                              const SizedBox(width: 8),
-                              const Text(
-                                'Toplam Kalp:',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                              const SizedBox(width: 8),
-                              Text(
-                                '0', // Burayı daha sonra dinamik yapacağız
-                                style: TextStyle(
-                                  color: Colors.red.shade400,
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            ],
+                          FutureBuilder<int>(
+                            future: _calculateTotalHearts(),
+                            builder: (context, snapshot) {
+                              final totalHearts = snapshot.data ?? 0;
+                              return Row(
+                                children: [
+                                  const Icon(
+                                    Icons.favorite,
+                                    color: Colors.red,
+                                    size: 24,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  const Text(
+                                    'Toplam Kalp:',
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(
+                                    totalHearts.toString(),
+                                    style: TextStyle(
+                                      color: Colors.red.shade400,
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ],
+                              );
+                            },
                           ),
                           
                           // Karizma
-                          Row(
-                            children: [
-                              const Icon(
-                                Icons.star,
-                                color: Colors.amber,
-                                size: 24,
-                              ),
-                              const SizedBox(width: 8),
-                              const Text(
-                                'Karizma:',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                              const SizedBox(width: 8),
-                              Text(
-                                '0', // Burayı daha sonra dinamik yapacağız
-                                style: TextStyle(
-                                  color: Colors.amber.shade400,
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            ],
+                          FutureBuilder<int>(
+                            future: _getCharismaPoints(),
+                            builder: (context, snapshot) {
+                              final charisma = snapshot.data ?? 0;
+                              return Row(
+                                children: [
+                                  const Icon(
+                                    Icons.star,
+                                    color: Colors.amber,
+                                    size: 24,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  const Text(
+                                    'Karizma:',
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(
+                                    charisma.toString(),
+                                    style: TextStyle(
+                                      color: Colors.amber.shade400,
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ],
+                              );
+                            },
                           ),
                         ],
                       ),

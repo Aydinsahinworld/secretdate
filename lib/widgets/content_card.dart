@@ -336,15 +336,24 @@ class _ContentCardState extends State<ContentCard> with SingleTickerProviderStat
   }
 
   void _navigateToGame(BuildContext context) {
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => GameScreen(
-          item: widget.item,
-          isMale: widget.isMale,
-        ),
-      ),
-    );
+    // ContentScreen'i bul
+    final contentScreen = context.findAncestorStateOfType<ContentScreenState>();
+    if (contentScreen == null) return;
+
+    // Kalp kontrolü yap ve oyunu başlat
+    contentScreen.checkAndStartGame(widget.item).then((canStart) {
+      if (canStart) {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => GameScreen(
+              item: widget.item,
+              isMale: widget.isMale,
+            ),
+          ),
+        );
+      }
+    });
   }
 
   // Büyütülmüş kartın içeriği
