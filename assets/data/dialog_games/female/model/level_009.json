@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "character": "Dominant ve Zeki Kadın",
+      "difficulty_level": 9,
+      "hint": "Beni etkileyen şey, zekanın gücü ve birinin nasıl düşündüğüdür!",
+      "question": "İlk buluşmada nereye gitmek isterdim?",
+      "choices": {
+        "A": "Satranç turnuvasına",
+        "B": "Lüks bir restorana",
+        "C": "Adrenalin dolu bir aktiviteye"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 2,
+      "character": "Dominant ve Zeki Kadın",
+      "difficulty_level": 9,
+      "hint": "Bana alınan bir şeyden çok, benim için ne ifade ettiği önemlidir!",
+      "question": "Bana en iyi hediye ne olurdu?",
+      "choices": {
+        "A": "Tarihî bir eser veya nadir bir kitap",
+        "B": "Lüks bir kolye",
+        "C": "Son model bir araba"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 3,
+      "character": "Dominant ve Zeki Kadın",
+      "difficulty_level": 9,
+      "hint": "Beni düşündüren, zekice kurgulanmış filmler ilgimi çeker!",
+      "question": "Hangi film türü beni daha çok etkiler?",
+      "choices": {
+        "A": "Psikolojik gerilim",
+        "B": "Aksiyon",
+        "C": "Romantik komedi"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 4,
+      "character": "Dominant ve Zeki Kadın",
+      "difficulty_level": 9,
+      "hint": "Etkileyici biri, konuşmasıyla kendini belli eder!",
+      "question": "Beni en çok hangi konuşma tarzı etkiler?",
+      "choices": {
+        "A": "Zekice ve etkileyici konuşmalar yapmak",
+        "B": "Sürekli espriler yapmak",
+        "C": "Sade ve kısa konuşmalar yapmak"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 5,
+      "character": "Dominant ve Zeki Kadın",
+      "difficulty_level": 9,
+      "hint": "Beni etkileyen şey, güçlü ve özgüvenli bir duruştur!",
+      "question": "Beni en çok hangi özellik etkiler?",
+      "choices": {
+        "A": "Özgüven ve liderlik yeteneği",
+        "B": "İtaatkâr ve uyumlu olmak",
+        "C": "Sürekli başkalarına danışarak hareket etmek"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 6,
+      "character": "Dominant ve Zeki Kadın",
+      "difficulty_level": 9,
+      "hint": "Karşımdaki kişi, benimle zihinsel olarak rekabet edebilmeli!",
+      "question": "Beni en çok hangi tür sohbet etkiler?",
+      "choices": {
+        "A": "Zekice tartışmalar ve fikir alışverişi",
+        "B": "Gündelik ve sıradan sohbetler",
+        "C": "Sadece esprili ve hafif sohbetler"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 7,
+      "character": "Dominant ve Zeki Kadın",
+      "difficulty_level": 9,
+      "hint": "Beni gerçekten etkileyen biri, düşünce yapısıyla beni zorlamalı!",
+      "question": "Beni en çok hangi yaklaşım etkiler?",
+      "choices": {
+        "A": "Beni entelektüel olarak zorlayan biri olmak",
+        "B": "Bana sürekli iltifat etmek",
+        "C": "Sessizce beni izlemek ve beklemek"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 8,
+      "character": "Dominant ve Zeki Kadın",
+      "difficulty_level": 9,
+      "hint": "Güçlü ve bağımsız biriyle vakit geçirmek, benim için en tatmin edici şeylerden biridir!",
+      "question": "Bir ilişkide benim için en önemli şey nedir?",
+      "choices": {
+        "A": "Zihinsel denge ve saygı",
+        "B": "Sürekli fiziksel çekim",
+        "C": "Bağımlılık ve sürekli ilgi gösterme"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 9,
+      "character": "Dominant ve Zeki Kadın",
+      "difficulty_level": 9,
+      "hint": "Benimle vakit geçirmek istiyorsan, gerçekten ilginç bir şeyler sunmalısın!",
+      "question": "Beni en çok hangi etkinlik etkiler?",
+      "choices": {
+        "A": "Birlikte strateji oyunları oynamak",
+        "B": "Sıradan bir akşam yemeği yemek",
+        "C": "Bir kulüpte eğlenmek"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 10,
+      "character": "Dominant ve Zeki Kadın",
+      "difficulty_level": 9,
+      "hint": "Gerçekten etkileyici biri, zorluklardan kaçmaz, onları çözer!",
+      "question": "Beni en çok hangi durum etkiler?",
+      "choices": {
+        "A": "Karşıma çıkan problemleri çözmek için inisiyatif almak",
+        "B": "Sürekli başkalarına sorarak hareket etmek",
+        "C": "Zorluklar karşısında geri çekilmek"
+      },
+      "correct_answer": "A"
+    }
+]

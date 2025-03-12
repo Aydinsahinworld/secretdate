@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Tsundere - Dıştan Sert, İçten Yumuşak",
+        "difficulty_level": 1,
+        "hint": "Sana önem verdiğimi sanma! Baka!",
+        "question": "İlk buluşmada nereye gitmek isterdim?",
+        "choices": {
+            "A": "Ramen yemeğe",
+            "B": "Tatlı bir kafe gezmeye",
+            "C": "Sessiz bir kitapçıda vakit geçirmeye"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 2,
+        "character": "Tsundere - Dıştan Sert, İçten Yumuşak",
+        "difficulty_level": 1,
+        "hint": "Benim gibi birine hangi hediye uygun olurdu sanıyorsun?!",
+        "question": "Bana en iyi hediye ne olurdu?",
+        "choices": {
+            "A": "Sevimli bir peluş oyuncak",
+            "B": "Özel tasarım bir katanalı anahtarlık",
+            "C": "El yazısıyla yazılmış bir mektup"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "character": "Tsundere - Dıştan Sert, İçten Yumuşak",
+        "difficulty_level": 1,
+        "hint": "Beni gerçekten tanıyorsan en sevdiğim anime türünü bilmelisin... değil mi?!",
+        "question": "Hangi anime türü benim favorimdir?",
+        "choices": {
+            "A": "Shounen – Aksiyon ve dövüş dolu!",
+            "B": "Shoujo – Romantik ve duygusal!",
+            "C": "Isekai – Paralel dünyalara gitmek!"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 4,
+        "character": "Tsundere - Dıştan Sert, İçten Yumuşak",
+        "difficulty_level": 1,
+        "hint": "Benim favori karakterim her zaman güçlü ve karizmatiktir!",
+        "question": "Hangi anime karakteri benim favorimdir?",
+        "choices": {
+            "A": "Levi Ackerman (Attack on Titan)",
+            "B": "Usagi Tsukino (Sailor Moon)",
+            "C": "Shoto Todoroki (My Hero Academia)"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 5,
+        "character": "Tsundere - Dıştan Sert, İçten Yumuşak",
+        "difficulty_level": 1,
+        "hint": "Japon mutfağında en sevdiğim şey baharatlı ve lezzetli olmalı!",
+        "question": "Favori Japon yemeğim nedir?",
+        "choices": {
+            "A": "Kare (Japon köri)",
+            "B": "Takoyaki (Ahtapot topları)",
+            "C": "Sushi"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 6,
+        "character": "Tsundere - Dıştan Sert, İçten Yumuşak",
+        "difficulty_level": 1,
+        "hint": "Gerçek bir tsundere olarak duygularımı gizlerim, ama bazen en sevdiğim aksesuarı takarım...",
+        "question": "Benim en sevdiğim aksesuar nedir?",
+        "choices": {
+            "A": "Parmaklı deri eldiven",
+            "B": "Choker kolye",
+            "C": "Kawaii hayvanlı çanta"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 7,
+        "character": "Tsundere - Dıştan Sert, İçten Yumuşak",
+        "difficulty_level": 1,
+        "hint": "Dövüş sahneleri beni heyecanlandırır, en sevdiğim dövüş stili ise...",
+        "question": "En sevdiğim dövüş tarzı nedir?",
+        "choices": {
+            "A": "Kendo (Samuray kılıç dövüşü)",
+            "B": "Karate",
+            "C": "Judo"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "character": "Tsundere - Dıştan Sert, İçten Yumuşak",
+        "difficulty_level": 1,
+        "hint": "Maid kafelerde çalışmayı hayal bile edemem! Peki ya en sevdiğim kafe türü?",
+        "question": "Japonya’da en sevdiğim türdeki kafe hangisidir?",
+        "choices": {
+            "A": "Maid Cafe",
+            "B": "Samurai Cafe",
+            "C": "Butler Cafe"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 9,
+        "character": "Tsundere - Dıştan Sert, İçten Yumuşak",
+        "difficulty_level": 1,
+        "hint": "Beni gerçekten tanıyorsan en sık kullandığım kelimeyi bilirsin!",
+        "question": "En sık kullandığım Japonca kelime nedir?",
+        "choices": {
+            "A": "Baka! (Aptal!)",
+            "B": "Sugoi! (Harika!)",
+            "C": "Nani?! (Ne?!)"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 10,
+        "character": "Tsundere - Dıştan Sert, İçten Yumuşak",
+        "difficulty_level": 1,
+        "hint": "Japon festivallerinde en sevdiğim şey heyecanlı bir yarışmaya katılmak olabilir!",
+        "question": "Matsurilerde (Japon festivalleri) en sevdiğim aktivite nedir?",
+        "choices": {
+            "A": "Sumo güreşi denemek",
+            "B": "Yemek yarışmasına katılmak",
+            "C": "Yoyo balık avlamak"
+        },
+        "correct_answer": "A"
+    }
+]

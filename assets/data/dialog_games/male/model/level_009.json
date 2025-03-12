@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Dominant ve Zeki Erkek",
+        "difficulty_level": 9,
+        "hint": "Beni etkilemek istiyorsan, özgüvenini göstermelisin.",
+        "question": "İlk buluşmada nereye gitmek isterdim?",
+        "choices": {
+            "A": "Lüks bir restoranda yemek",
+            "B": "Spor salonunda antrenman yapmak",
+            "C": "Strateji gerektiren bir oyun turnuvasına katılmak"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 2,
+        "character": "Dominant ve Zeki Erkek",
+        "difficulty_level": 9,
+        "hint": "Güç ve prestij, benim için değerli şeylerdir.",
+        "question": "Bana en iyi hediye ne olurdu?",
+        "choices": {
+            "A": "Şık bir kol saati",
+            "B": "Özel tasarım bir dolma kalem",
+            "C": "Yeni çıkan bir teknoloji cihazı"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "character": "Dominant ve Zeki Erkek",
+        "difficulty_level": 9,
+        "hint": "Filmler benim için sadece eğlence değil, düşünmeye sevk etmelidir.",
+        "question": "Hangi film türü beni daha çok etkiler?",
+        "choices": {
+            "A": "Zihinsel mücadele içeren filmler",
+            "B": "Aksiyon dolu süper kahraman filmleri",
+            "C": "Romantik komedi"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "character": "Dominant ve Zeki Erkek",
+        "difficulty_level": 9,
+        "hint": "Konuşmalarda zekice cevaplar ve meydan okumalar hoşuma gider.",
+        "question": "Beni en çok hangi konuşma tarzı etkiler?",
+        "choices": {
+            "A": "Zeki ve meydan okuyan konuşmalar",
+            "B": "Nazik ve diplomatik konuşmalar",
+            "C": "Yüzeysel ve eğlenceli sohbetler"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 5,
+        "character": "Dominant ve Zeki Erkek",
+        "difficulty_level": 9,
+        "hint": "Tatillerimde rahatlamak değil, kendimi geliştirmek isterim.",
+        "question": "Birlikte nasıl bir tatil yapardık?",
+        "choices": {
+            "A": "Tarihi bir araştırma gezisi",
+            "B": "Lüks bir tatil köyünde dinlenmek",
+            "C": "Bir fitness kampına katılmak"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 6,
+        "character": "Dominant ve Zeki Erkek",
+        "difficulty_level": 9,
+        "hint": "Bir ilişkide kontrolü kaybetmek hoşuma gitmez.",
+        "question": "Bir ilişkide benim için en önemli şey nedir?",
+        "choices": {
+            "A": "Karşılıklı güç dengesi",
+            "B": "Tam bağımsızlık",
+            "C": "Romantik sürprizler"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 7,
+        "character": "Dominant ve Zeki Erkek",
+        "difficulty_level": 9,
+        "hint": "Müzik benim için bir motivasyon aracıdır.",
+        "question": "En çok hangi müzik türü beni etkiler?",
+        "choices": {
+            "A": "Klasik müzik ve film müzikleri",
+            "B": "Yoğun tempolu elektronik müzik",
+            "C": "Hafif ve rahatlatıcı müzikler"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 8,
+        "character": "Dominant ve Zeki Erkek",
+        "difficulty_level": 9,
+        "hint": "Beni kazanmak istiyorsan, zayıflık göstermemelisin.",
+        "question": "Beni en çok hangi davranış etkiler?",
+        "choices": {
+            "A": "Özgüvenli ve kararlı olmak",
+            "B": "Sürekli onay beklemek",
+            "C": "İnisiyatif almaktan kaçınmak"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "character": "Dominant ve Zeki Erkek",
+        "difficulty_level": 9,
+        "hint": "Rekabet ve strateji benim için heyecan vericidir.",
+        "question": "Beni en çok hangi etkinlik mutlu eder?",
+        "choices": {
+            "A": "Satranç veya zeka oyunları oynamak",
+            "B": "Sosyal bir etkinlik düzenlemek",
+            "C": "Romantik bir akşam yemeği"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 10,
+        "character": "Dominant ve Zeki Erkek",
+        "difficulty_level": 9,
+        "hint": "Bağımsız ve güçlü insanlar benim için daha çekicidir.",
+        "question": "Beni en çok hangi yaklaşım etkiler?",
+        "choices": {
+            "A": "Güçlü ve bağımsız bir duruş sergilemek",
+            "B": "Sürekli ilgi beklemek",
+            "C": "Uyumlu ve her konuda kabul eden biri olmak"
+        },
+        "correct_answer": "A"
+    }
+]

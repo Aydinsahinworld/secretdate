@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Gizemli ve Mesafeli Erkek",
+        "difficulty_level": 7,
+        "hint": "Beni gerçekten tanımak istiyorsan, sabırlı olmalısın.",
+        "question": "İlk buluşmada nereye gitmek isterdim?",
+        "choices": {
+            "A": "Sessiz ve loş bir kafede buluşmak",
+            "B": "Kalabalık ve gürültülü bir mekânda buluşmak",
+            "C": "Sıradışı bir etkinliğe katılmak"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 2,
+        "character": "Gizemli ve Mesafeli Erkek",
+        "difficulty_level": 7,
+        "hint": "Sıradan hediyeler ilgimi çekmez, anlamı olan şeyler değerlidir.",
+        "question": "Bana en iyi hediye ne olurdu?",
+        "choices": {
+            "A": "Eski bir kitap veya yazılmış bir not",
+            "B": "Son model bir telefon",
+            "C": "Marka bir saat"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "character": "Gizemli ve Mesafeli Erkek",
+        "difficulty_level": 7,
+        "hint": "Filmler sadece eğlence değil, derin anlamlar taşımalıdır.",
+        "question": "Hangi film türü beni daha çok etkiler?",
+        "choices": {
+            "A": "Psikolojik gerilim",
+            "B": "Komedi",
+            "C": "Aksiyon"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 4,
+        "character": "Gizemli ve Mesafeli Erkek",
+        "difficulty_level": 7,
+        "hint": "Gerçekten anlamlı konuşmalar benim için önemlidir.",
+        "question": "Beni en çok hangi konuşma tarzı etkiler?",
+        "choices": {
+            "A": "Derin ve anlamlı konuşmalar",
+            "B": "Yüzeysel ve sıradan sohbetler",
+            "C": "Sürekli espriler yapan biri"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 5,
+        "character": "Gizemli ve Mesafeli Erkek",
+        "difficulty_level": 7,
+        "hint": "Sessiz ve huzurlu yerlerde vakit geçirmeyi tercih ederim.",
+        "question": "Birlikte nasıl bir tatil yapardık?",
+        "choices": {
+            "A": "Dağ evinde izole bir tatil",
+            "B": "Büyük ve hareketli bir şehir turu",
+            "C": "Plajda lüks bir tatil"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 6,
+        "character": "Gizemli ve Mesafeli Erkek",
+        "difficulty_level": 7,
+        "hint": "Bağımsızlık ve kişisel alan benim için çok önemlidir.",
+        "question": "Bir ilişkide benim için en önemli şey nedir?",
+        "choices": {
+            "A": "Güven ve kişisel alan",
+            "B": "Her an birlikte olmak",
+            "C": "Sürekli heyecan ve macera"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 7,
+        "character": "Gizemli ve Mesafeli Erkek",
+        "difficulty_level": 7,
+        "hint": "Müzik ruh halimi yansıtır, sakin ve derin olmalı.",
+        "question": "En çok hangi müzik türü beni etkiler?",
+        "choices": {
+            "A": "Caz ve lo-fi",
+            "B": "Rock ve metal",
+            "C": "Elektronik müzik"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "character": "Gizemli ve Mesafeli Erkek",
+        "difficulty_level": 7,
+        "hint": "Beni gerçekten anlamaya çalışan biri benim için değerlidir.",
+        "question": "Beni en çok hangi davranış etkiler?",
+        "choices": {
+            "A": "Beni sorgulamadan anlamaya çalışan biri",
+            "B": "Sürekli macera peşinde koşan biri",
+            "C": "Sürekli sosyal etkinlikler düzenleyen biri"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 9,
+        "character": "Gizemli ve Mesafeli Erkek",
+        "difficulty_level": 7,
+        "hint": "Derin düşüncelerim ve duygularım vardır, onları paylaşmak özel bir şeydir.",
+        "question": "Beni en çok hangi etkinlik mutlu eder?",
+        "choices": {
+            "A": "Yalnız bir doğa yürüyüşü",
+            "B": "Gürültülü bir partiye katılmak",
+            "C": "Sosyal medyada vakit geçirmek"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 10,
+        "character": "Gizemli ve Mesafeli Erkek",
+        "difficulty_level": 7,
+        "hint": "Samimi ama baskıcı olmayan bir yaklaşım benim için en etkileyicidir.",
+        "question": "Beni en çok hangi yaklaşım etkiler?",
+        "choices": {
+            "A": "Sabırlı ve samimi bir yaklaşım",
+            "B": "Sürekli şakalar yapan biri",
+            "C": "Hızlı ve yoğun bir ilgi gösteren biri"
+        },
+        "correct_answer": "A"
+    }
+]

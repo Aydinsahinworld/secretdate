@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Eğlenceli ve Çılgın Erkek",
+        "difficulty_level": 2,
+        "hint": "Hayat sıkıcı olmamalı! En iyi buluşmalar, bol kahkaha içerenlerdir!",
+        "question": "İlk buluşmada nereye gitmek isterdim?",
+        "choices": {
+            "A": "Lunaparkta çılgınca eğlenmek",
+            "B": "Şık bir restoranda yemek yemek",
+            "C": "Evde film izlemek"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 2,
+        "character": "Eğlenceli ve Çılgın Erkek",
+        "difficulty_level": 2,
+        "hint": "Beni mutlu etmek istiyorsan, sıradanlığı unut ve gerçekten eğlenceli bir şey yap!",
+        "question": "Bana en iyi hediye ne olurdu?",
+        "choices": {
+            "A": "Bungee jumping bileti",
+            "B": "Bir kutu çikolata",
+            "C": "Şık bir kol düğmesi"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "character": "Eğlenceli ve Çılgın Erkek",
+        "difficulty_level": 2,
+        "hint": "Film izlerken yerimde duramam! Enerji ve macera içeren filmleri severim!",
+        "question": "Hangi film türü beni daha çok etkiler?",
+        "choices": {
+            "A": "Macera",
+            "B": "Dram",
+            "C": "Korku"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 4,
+        "character": "Eğlenceli ve Çılgın Erkek",
+        "difficulty_level": 2,
+        "hint": "Eğer mesajların sıkıcıysa, cevabımı bekleme!",
+        "question": "Bana nasıl bir mesaj atsan hoşuma gider?",
+        "choices": {
+            "A": "Komik bir GIF ve esprili bir mesaj",
+            "B": "Sadece 'Nasılsın?' yazmak",
+            "C": "Uzun bir aşk mektubu"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 5,
+        "character": "Eğlenceli ve Çılgın Erkek",
+        "difficulty_level": 2,
+        "hint": "Tatilde deniz kenarında yatmak yerine, adrenalin peşinde koşarım!",
+        "question": "Birlikte nasıl bir tatil yapardık?",
+        "choices": {
+            "A": "Dalış ve sörf dolu bir tatil",
+            "B": "Lüks bir tatil köyü",
+            "C": "Sessiz bir doğa yürüyüşü"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 6,
+        "character": "Eğlenceli ve Çılgın Erkek",
+        "difficulty_level": 2,
+        "hint": "Rutin ve sıkıcı şeylerden nefret ederim!",
+        "question": "Bir ilişkide benim için en önemli şey nedir?",
+        "choices": {
+            "A": "Eğlence ve sürprizler",
+            "B": "Güven ve sadakat",
+            "C": "Sürekli birlikte olmak"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 7,
+        "character": "Eğlenceli ve Çılgın Erkek",
+        "difficulty_level": 2,
+        "hint": "Müzik ruh halimi yansıtır!",
+        "question": "En çok hangi müzik türü beni etkiler?",
+        "choices": {
+            "A": "Pop ve dans müzikleri",
+            "B": "Klasik müzik",
+            "C": "Hüzünlü baladlar"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "character": "Eğlenceli ve Çılgın Erkek",
+        "difficulty_level": 2,
+        "hint": "Özgürlük benim için her şeydir!",
+        "question": "Beni en çok hangi ilişki tarzı mutlu eder?",
+        "choices": {
+            "A": "Bağımsız ama eğlenceli bir ilişki",
+            "B": "Sürekli birlikte vakit geçirilen bir ilişki",
+            "C": "Kuralcı ve planlı bir ilişki"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 9,
+        "character": "Eğlenceli ve Çılgın Erkek",
+        "difficulty_level": 2,
+        "hint": "Hayat kısa, macera dolu yaşamak lazım!",
+        "question": "Beni en çok hangi aktivite mutlu eder?",
+        "choices": {
+            "A": "Ekstrem sporlar yapmak",
+            "B": "Sakin bir kitap okuma günü geçirmek",
+            "C": "Romantik bir akşam yemeği yemek"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 10,
+        "character": "Eğlenceli ve Çılgın Erkek",
+        "difficulty_level": 2,
+        "hint": "Beni gerçekten kazanmak istiyorsan, eğlenceli olmalısın!",
+        "question": "Beni en çok hangi yaklaşım etkiler?",
+        "choices": {
+            "A": "Esprili ve eğlenceli biri olmak",
+            "B": "Sürekli ciddi olmak",
+            "C": "Beni her konuda onaylamak ve uyum sağlamak"
+        },
+        "correct_answer": "A"
+    }
+]

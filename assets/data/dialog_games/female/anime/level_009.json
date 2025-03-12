@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Anime Kızı",
+        "difficulty_level": 9,
+        "hint": "Eğer bir süper gücün olsaydı, dünyayı dolaşmak mı, yoksa insanların sırlarını öğrenmek mi daha eğlenceli olurdu?",
+        "question": "Bir anime karakteri olsaydın, hangi güce sahip olmak isterdin?",
+        "choices": {
+            "A": "Süper hız",
+            "B": "Zihin okuma",
+            "C": "Işınlanma"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 2,
+        "character": "Anime Kızı",
+        "difficulty_level": 9,
+        "hint": "Bazen tek bir yemek, bir insanın karakterini anlatır. Acaba ben neyi tercih ederdim?",
+        "question": "Bir Japon yemeği deneyecek olsan, hangisini seçerdin?",
+        "choices": {
+            "A": "Sushi",
+            "B": "Ramen",
+            "C": "Okonomiyaki"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "character": "Anime Kızı",
+        "difficulty_level": 9,
+        "hint": "Hikayesi en güçlü olan animeler her zaman favorimdir!",
+        "question": "Hangi anime türü seni daha çok cezbeder?",
+        "choices": {
+            "A": "Shonen",
+            "B": "Isekai",
+            "C": "Slice of Life"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "character": "Anime Kızı",
+        "difficulty_level": 9,
+        "hint": "Gökyüzüne yazılan dilekler gerçekten kabul olur mu dersin?",
+        "question": "Bir festivale gitmek istesen, hangi Japon festivalini seçerdin?",
+        "choices": {
+            "A": "Hanami",
+            "B": "Tanabata",
+            "C": "Gion Matsuri"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 5,
+        "character": "Anime Kızı",
+        "difficulty_level": 9,
+        "hint": "Tarih dolu bir şehir mi, yoksa modern gökdelenler mi seni daha çok etkilerdi?",
+        "question": "Japonya'ya seyahat etsen, hangi şehri ziyaret etmek isterdin?",
+        "choices": {
+            "A": "Kyoto",
+            "B": "Tokyo",
+            "C": "Osaka"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 6,
+        "character": "Anime Kızı",
+        "difficulty_level": 9,
+        "hint": "Karakterin en önemli özelliği ne olmalı?",
+        "question": "Hangi anime karakteriyle bir gün geçirmek isterdin?",
+        "choices": {
+            "A": "Levi Ackerman",
+            "B": "Gojou Satoru",
+            "C": "Luffy"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 7,
+        "character": "Anime Kızı",
+        "difficulty_level": 9,
+        "hint": "Bazı klasikler asla eskimez, peki senin favorin hangisi olurdu?",
+        "question": "Hangi klasik animeyi izlemek zorunda kalsan, hangisini seçerdin?",
+        "choices": {
+            "A": "Neon Genesis Evangelion",
+            "B": "Akira",
+            "C": "Cowboy Bebop"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 8,
+        "character": "Anime Kızı",
+        "difficulty_level": 9,
+        "hint": "Tatlı yemek mi, yoksa tuzlu atıştırmalık mı?",
+        "question": "Hangi Japon tatlısı seni daha çok mutlu eder?",
+        "choices": {
+            "A": "Mochi",
+            "B": "Dorayaki",
+            "C": "Taiyaki"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "character": "Anime Kızı",
+        "difficulty_level": 9,
+        "hint": "Bazı yaratıklar iyilik yapar, bazıları ise sadece sorun çıkarır...",
+        "question": "Japon mitolojisindeki hangi yaratık daha ilginç?",
+        "choices": {
+            "A": "Kitsune",
+            "B": "Tengu",
+            "C": "Oni"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 10,
+        "character": "Anime Kızı",
+        "difficulty_level": 9,
+        "hint": "Gerçekten bu dünyada yaşamak ister miydin? Emin misin?",
+        "question": "Bir anime dünyasında yaşamak zorunda olsan, hangisini seçerdin?",
+        "choices": {
+            "A": "Attack on Titan",
+            "B": "My Hero Academia",
+            "C": "One Piece"
+        },
+        "correct_answer": "C"
+    }
+]

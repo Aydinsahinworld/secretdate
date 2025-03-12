@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "character": "Analitik ve Zeki Kadın",
+      "difficulty_level": 8,
+      "hint": "Zeka, en büyük çekiciliktir. Derin düşünebilen biri ilgimi çeker!",
+      "question": "İlk buluşmada nereye gitmek isterdim?",
+      "choices": {
+        "A": "Bir bilim müzesine",
+        "B": "Gece kulübüne",
+        "C": "Macera parkına"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 2,
+      "character": "Analitik ve Zeki Kadın",
+      "difficulty_level": 8,
+      "hint": "Beni etkileyen şey, bilginin gücüdür.",
+      "question": "Bana en iyi hediye ne olurdu?",
+      "choices": {
+        "A": "Nadir bir bilim kitabı",
+        "B": "Pırlanta bir yüzük",
+        "C": "Lüks bir tatil paketi"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 3,
+      "character": "Analitik ve Zeki Kadın",
+      "difficulty_level": 8,
+      "hint": "Beni düşündüren filmler her zaman ilgimi çeker.",
+      "question": "Hangi film türü beni daha çok etkiler?",
+      "choices": {
+        "A": "Bilim kurgu",
+        "B": "Aksiyon",
+        "C": "Romantik komedi"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 4,
+      "character": "Analitik ve Zeki Kadın",
+      "difficulty_level": 8,
+      "hint": "Mantıklı bir konuşma, benim için eğlenceli bir sohbettir!",
+      "question": "Beni en çok hangi konuşma tarzı etkiler?",
+      "choices": {
+        "A": "Tartışmaya açık, mantıklı sohbetler yapmak",
+        "B": "Sadece esprili konuşmalar yapmak",
+        "C": "Rastgele konulardan bahsetmek"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 5,
+      "character": "Analitik ve Zeki Kadın",
+      "difficulty_level": 8,
+      "hint": "İlginç sorular sorabilen biri, her zaman ilgimi çeker!",
+      "question": "Beni en çok hangi konuşma tarzı etkiler?",
+      "choices": {
+        "A": "Teorik ve derin sohbetler yapmak",
+        "B": "Gündelik basit sohbetler yapmak",
+        "C": "Sadece mizahi konulara odaklanmak"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 6,
+      "character": "Analitik ve Zeki Kadın",
+      "difficulty_level": 8,
+      "hint": "Düşünmeden hareket eden biriyle vakit geçirmek bana keyif vermez.",
+      "question": "Beni en çok hangi davranış etkiler?",
+      "choices": {
+        "A": "Düşünerek ve analiz ederek hareket etmek",
+        "B": "Plansız ve rastgele hareket etmek",
+        "C": "Başkalarının kararlarını takip etmek"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 7,
+      "character": "Analitik ve Zeki Kadın",
+      "difficulty_level": 8,
+      "hint": "Beni en çok etkileyen şeylerden biri, problem çözebilme yeteneğidir!",
+      "question": "Beni en çok hangi özellik etkiler?",
+      "choices": {
+        "A": "Zorluklar karşısında çözüm odaklı olmak",
+        "B": "Her konuda şikayetçi olmak",
+        "C": "Sürekli başkalarının fikirlerini kopyalamak"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 8,
+      "character": "Analitik ve Zeki Kadın",
+      "difficulty_level": 8,
+      "hint": "Öğrenmek ve gelişmek benim için önemlidir.",
+      "question": "Beni en çok hangi aktivite mutlu eder?",
+      "choices": {
+        "A": "Yeni bir şeyler öğrenmek ve araştırmak",
+        "B": "Sadece dinlenmek ve uyumak",
+        "C": "Dışarı çıkıp kalabalık içinde eğlenmek"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 9,
+      "character": "Analitik ve Zeki Kadın",
+      "difficulty_level": 8,
+      "hint": "Gerçekten beni tanımak isteyen biri, aklımı keşfetmeli!",
+      "question": "Beni en çok hangi yaklaşım etkiler?",
+      "choices": {
+        "A": "Beni düşünmeye teşvik eden biri olmak",
+        "B": "Sürekli fiziksel güzelliğimi övmek",
+        "C": "Beni baskı altına alarak dikkat çekmeye çalışmak"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 10,
+      "character": "Analitik ve Zeki Kadın",
+      "difficulty_level": 8,
+      "hint": "Bilgi benim için en büyük güçtür!",
+      "question": "Beni en çok hangi durum etkiler?",
+      "choices": {
+        "A": "Yeni ve ilginç bir konu hakkında derinlemesine konuşmak",
+        "B": "Sadece sıradan bir gün geçirmek",
+        "C": "Mizahi şakalar yaparak eğlenmek"
+      },
+      "correct_answer": "A"
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Nazik ve Romantik Erkek",
+        "difficulty_level": 1,
+        "hint": "Beni gerçekten etkilemek istiyorsan, küçük detaylara önem vermelisin!",
+        "question": "İlk buluşmada nereye gitmek isterdim?",
+        "choices": {
+            "A": "Güzel bir parkta yürüyüş",
+            "B": "Gürültülü bir konser",
+            "C": "Ekstrem bir spor etkinliği"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 2,
+        "character": "Nazik ve Romantik Erkek",
+        "difficulty_level": 1,
+        "hint": "İçten bir hediye, pahalı bir hediyeden daha değerlidir!",
+        "question": "Bana en iyi hediye ne olurdu?",
+        "choices": {
+            "A": "El yazısıyla yazılmış bir mektup",
+            "B": "Lüks bir saat",
+            "C": "Teknolojik bir cihaz"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 3,
+        "character": "Nazik ve Romantik Erkek",
+        "difficulty_level": 1,
+        "hint": "İçinde duygu ve anlam olan filmler her zaman ilgimi çeker.",
+        "question": "Hangi film türü beni daha çok etkiler?",
+        "choices": {
+            "A": "Romantik",
+            "B": "Aksiyon",
+            "C": "Bilim kurgu"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 4,
+        "character": "Nazik ve Romantik Erkek",
+        "difficulty_level": 1,
+        "hint": "Nazik ve düşünceli sözler her zaman kalbimi kazanır!",
+        "question": "Beni en çok hangi konuşma tarzı etkiler?",
+        "choices": {
+            "A": "Düşünceli ve nazik konuşmalar yapmak",
+            "B": "Sürekli espriler yapmak",
+            "C": "Kısa ve yüzeysel konuşmalar yapmak"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 5,
+        "character": "Nazik ve Romantik Erkek",
+        "difficulty_level": 1,
+        "hint": "Benim için romantizmin en güzel hali, birlikte geçirilen samimi anlardır!",
+        "question": "Beni en çok hangi etkinlik mutlu eder?",
+        "choices": {
+            "A": "Yıldızların altında bir yürüyüş",
+            "B": "Ekstrem sporlar yapmak",
+            "C": "Kalabalık bir partide dans etmek"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 6,
+        "character": "Nazik ve Romantik Erkek",
+        "difficulty_level": 1,
+        "hint": "Beni etkilemek istiyorsan, sözlerin kadar davranışların da önemlidir!",
+        "question": "Beni en çok hangi davranış etkiler?",
+        "choices": {
+            "A": "Küçük ama anlamlı jestler yapmak",
+            "B": "Sürekli kompliman yapmak",
+            "C": "Maceracı ve çılgın davranışlar sergilemek"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 7,
+        "character": "Nazik ve Romantik Erkek",
+        "difficulty_level": 1,
+        "hint": "İlişkide güven ve samimiyet benim için her şeyden önemli!",
+        "question": "Bir ilişkide benim için en önemli şey nedir?",
+        "choices": {
+            "A": "Dürüstlük ve güven",
+            "B": "Sürekli sürprizler yapmak",
+            "C": "Heyecan verici aktiviteler peşinde koşmak"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "character": "Nazik ve Romantik Erkek",
+        "difficulty_level": 1,
+        "hint": "Duygularımı en iyi müzikle ifade ederim!",
+        "question": "En çok hangi müzik türü beni etkiler?",
+        "choices": {
+            "A": "Romantik baladlar",
+            "B": "Elektronik müzik",
+            "C": "Rock ve metal"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 9,
+        "character": "Nazik ve Romantik Erkek",
+        "difficulty_level": 1,
+        "hint": "Gerçekten özel anlar, en sade ama anlamlı olanlardır!",
+        "question": "Beni en çok hangi türde bir randevu etkiler?",
+        "choices": {
+            "A": "Güzel bir akşam yemeği ve yürüyüş",
+            "B": "Macera dolu bir kamp tatili",
+            "C": "Kalabalık bir eğlence merkezinde vakit geçirmek"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 10,
+        "character": "Nazik ve Romantik Erkek",
+        "difficulty_level": 1,
+        "hint": "Beni gerçekten kazanmak istiyorsan, samimi olmalısın!",
+        "question": "Beni en çok hangi yaklaşım etkiler?",
+        "choices": {
+            "A": "Doğal ve içten olmak",
+            "B": "Sürekli abartılı romantik jestler yapmak",
+            "C": "Maceracı ve asi bir tavır sergilemek"
+        },
+        "correct_answer": "C"
+    }
+]

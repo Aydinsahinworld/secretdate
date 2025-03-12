@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Ojou-sama - Zengin ve Kibarlıktan Taviz Vermeyen",
+        "difficulty_level": 4,
+        "hint": "Basit yerlere gitmek... elbette bana uygun değil. Zevkim biraz daha sofistike.",
+        "question": "İlk buluşmada nereye gitmek isterdim?",
+        "choices": {
+            "A": "Lüks bir otel restoranında akşam yemeği",
+            "B": "Küçük bir sokak yemeği standında takoyaki yemek",
+            "C": "Anime mağazalarının olduğu bir alışveriş merkezine gitmek"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 2,
+        "character": "Ojou-sama - Zengin ve Kibarlıktan Taviz Vermeyen",
+        "difficulty_level": 4,
+        "hint": "Bir hediye ancak benzersizse değerlidir. Herkesin sahip olabileceği şeyler bana hitap etmez.",
+        "question": "Bana en iyi hediye ne olurdu?",
+        "choices": {
+            "A": "Özel tasarım bir mücevher",
+            "B": "Kendi elinle yazdığın duygusal bir mektup",
+            "C": "En sevdiğim anime karakterinin figürü"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 3,
+        "character": "Ojou-sama - Zengin ve Kibarlıktan Taviz Vermeyen",
+        "difficulty_level": 4,
+        "hint": "Sanatsal ve kaliteli şeyleri izlemek, zekâyı geliştiren yapımları takip etmek beni mutlu eder.",
+        "question": "Hangi anime türü benim favorimdir?",
+        "choices": {
+            "A": "Dram ve tarihi animeler",
+            "B": "Aksiyon dolu shounen serileri",
+            "C": "Korku ve gerilim animeleri"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "character": "Ojou-sama - Zengin ve Kibarlıktan Taviz Vermeyen",
+        "difficulty_level": 4,
+        "hint": "Kendi statümüme uygun bir karakteri favori olarak görmem çok doğal olurdu, değil mi?",
+        "question": "Hangi anime karakteri benim favorimdir?",
+        "choices": {
+            "A": "Saber (Fate series)",
+            "B": "Nico Robin (One Piece)",
+            "C": "Misaki Ayuzawa (Maid Sama!)"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 5,
+        "character": "Ojou-sama - Zengin ve Kibarlıktan Taviz Vermeyen",
+        "difficulty_level": 4,
+        "hint": "İyi yemek, sadece karın doyurmak değildir. Kusursuz bir deneyim olmalıdır.",
+        "question": "Favori Japon yemeğim nedir?",
+        "choices": {
+            "A": "Kaiseki Ryori (Geleneksel Japon fine dining)",
+            "B": "Ramen",
+            "C": "Okonomiyaki"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 6,
+        "character": "Ojou-sama - Zengin ve Kibarlıktan Taviz Vermeyen",
+        "difficulty_level": 4,
+        "hint": "İmaj, bir insanın en önemli aksesuarıdır.",
+        "question": "Benim en sevdiğim aksesuar nedir?",
+        "choices": {
+            "A": "İnci kolye",
+            "B": "Sade ama pahalı bir saat",
+            "C": "Kedi kulaklı bir saç bandı"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 7,
+        "character": "Ojou-sama - Zengin ve Kibarlıktan Taviz Vermeyen",
+        "difficulty_level": 4,
+        "hint": "Festivaller elbette eğlenceli olabilir, ancak benim için yalnızca en zarif olanı önemlidir.",
+        "question": "Japonya’daki en sevdiğim festival nedir?",
+        "choices": {
+            "A": "Gion Matsuri (Kyoto’nun en zarif festivali)",
+            "B": "Nebuta Matsuri (Kuzey Japonya'daki dev fener festivali)",
+            "C": "Natsu Matsuri (Yaz festivali, havai fişek gösterisi)"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "character": "Ojou-sama - Zengin ve Kibarlıktan Taviz Vermeyen",
+        "difficulty_level": 4,
+        "hint": "Özel hizmetin olduğu bir yer varken neden sıradan bir kafeye gideyim?",
+        "question": "Japonya’da en sevdiğim türdeki kafe hangisidir?",
+        "choices": {
+            "A": "Butler Cafe",
+            "B": "Maid Cafe",
+            "C": "Kedi Kafesi"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "character": "Ojou-sama - Zengin ve Kibarlıktan Taviz Vermeyen",
+        "difficulty_level": 4,
+        "hint": "Kullanmayı en çok sevdiğim kelime, statümü yansıtan bir kelime olmalı.",
+        "question": "En sevdiğim Japonca kelime nedir?",
+        "choices": {
+            "A": "Ara ara~ (Züppece şaşırma ifadesi)",
+            "B": "Ohohoho~ (Kibarlıktan taviz vermeyen kahkaha)",
+            "C": "Sugoi! (Harika!)"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 10,
+        "character": "Ojou-sama - Zengin ve Kibarlıktan Taviz Vermeyen",
+        "difficulty_level": 4,
+        "hint": "İlişkilerde de kalite her zaman önemlidir.",
+        "question": "Beni en çok hangi ilişki türü mutlu eder?",
+        "choices": {
+            "A": "Özel ilgi ve lüks içinde yaşanan bir ilişki",
+            "B": "Bağımsızlık ve özgürlüğün ön planda olduğu bir ilişki",
+            "C": "Heyecan verici, spontane bir ilişki"
+        },
+        "correct_answer": "A"
+    }
+]

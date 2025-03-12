@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Maceraperest Erkek",
+        "difficulty_level": 4,
+        "hint": "Hayat bir maceradır! Benim için sıradanlık çok sıkıcıdır!",
+        "question": "İlk buluşmada nereye gitmek isterdim?",
+        "choices": {
+            "A": "Yamaç paraşütü yapmaya",
+            "B": "Şık bir restorana",
+            "C": "Evde film izlemeye"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 2,
+        "character": "Maceraperest Erkek",
+        "difficulty_level": 4,
+        "hint": "Beni mutlu eden şey, heyecan ve yeni deneyimlerdir!",
+        "question": "Bana en iyi hediye ne olurdu?",
+        "choices": {
+            "A": "Dalgıçlık eğitimi",
+            "B": "Lüks bir kol saati",
+            "C": "Geleneksel bir kahve seti"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 3,
+        "character": "Maceraperest Erkek",
+        "difficulty_level": 4,
+        "hint": "Yerimde duramam, hareket ve aksiyon olmadan yaşayamam!",
+        "question": "Hangi film türü beni daha çok etkiler?",
+        "choices": {
+            "A": "Aksiyon ve macera",
+            "B": "Dram",
+            "C": "Romantik komedi"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 4,
+        "character": "Maceraperest Erkek",
+        "difficulty_level": 4,
+        "hint": "Eğer sıkıcıysan, beni elde etmen çok zor!",
+        "question": "Beni en çok hangi konuşma tarzı etkiler?",
+        "choices": {
+            "A": "Maceracı ve enerjik bir sohbet",
+            "B": "Ciddi ve mantıklı bir konuşma",
+            "C": "Sessiz ve çekingen bir yaklaşım"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 5,
+        "character": "Maceraperest Erkek",
+        "difficulty_level": 4,
+        "hint": "Tatillerim durağan değil, keşif dolu olmalı!",
+        "question": "Birlikte nasıl bir tatil yapardık?",
+        "choices": {
+            "A": "Safari ve doğa keşfi",
+            "B": "Lüks bir otelde dinlenme tatili",
+            "C": "Müzelerde ve şehirde vakit geçirme"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 6,
+        "character": "Maceraperest Erkek",
+        "difficulty_level": 4,
+        "hint": "Özgürlük benim için vazgeçilmezdir!",
+        "question": "Bir ilişkide benim için en önemli şey nedir?",
+        "choices": {
+            "A": "Bağımsızlık ve özgürlük",
+            "B": "Sürekli birlikte olmak",
+            "C": "Rahatlık ve stabilite"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 7,
+        "character": "Maceraperest Erkek",
+        "difficulty_level": 4,
+        "hint": "Müzik benim için bir ruh hali yaratır, enerjik ve hareketli olmalı!",
+        "question": "En çok hangi müzik türü beni etkiler?",
+        "choices": {
+            "A": "Elektronik ve rock",
+            "B": "Klasik müzik",
+            "C": "Hüzünlü baladlar"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "character": "Maceraperest Erkek",
+        "difficulty_level": 4,
+        "hint": "Durağan bir hayat bana göre değil!",
+        "question": "Beni en çok hangi aktivite mutlu eder?",
+        "choices": {
+            "A": "Dağcılık ve kamp",
+            "B": "Sinema gecesi",
+            "C": "Lüks bir spa günü"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 9,
+        "character": "Maceraperest Erkek",
+        "difficulty_level": 4,
+        "hint": "Eğer bir ilişki durağansa, ilgimi kaybederim!",
+        "question": "Beni en çok hangi ilişki dinamiği etkiler?",
+        "choices": {
+            "A": "Macera ve spontane anlar",
+            "B": "Sakin ve rutin bir ilişki",
+            "C": "Planlı ve düzenli bir ilişki"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 10,
+        "character": "Maceraperest Erkek",
+        "difficulty_level": 4,
+        "hint": "Beni gerçekten kazanmak istiyorsan, cesaretli olmalısın!",
+        "question": "Beni en çok hangi yaklaşım etkiler?",
+        "choices": {
+            "A": "Beni yeni maceralara sürükleyebilecek biri olmak",
+            "B": "Sessiz ve sakin bir tavır sergilemek",
+            "C": "Her zaman konfor alanında kalmak"
+        },
+        "correct_answer": "A"
+    }
+]

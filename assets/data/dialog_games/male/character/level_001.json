@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Erkek Model",
+        "difficulty_level": 1,
+        "hint": "Hangi sporu yapıyorsun? Benim tercihim güç ve hız gerektiren şeyler...",
+        "question": "Hangi spor dalı en çok ilgini çeker?",
+        "choices": {
+            "A": "Futbol",
+            "B": "Basketbol",
+            "C": "Boks"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 2,
+        "character": "Erkek Model",
+        "difficulty_level": 1,
+        "hint": "Yemek konusunda çok seçici değilim ama bazı lezzetler gerçekten favorimdir.",
+        "question": "Bir restorana gittiğinde ne sipariş edersin?",
+        "choices": {
+            "A": "Hamburger",
+            "B": "Biftek",
+            "C": "Suşi"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "character": "Erkek Model",
+        "difficulty_level": 1,
+        "hint": "Hangi film türünü izlemeyi tercih edersin? Ben aksiyon dolu olanları severim.",
+        "question": "En sevdiğin film türü hangisi?",
+        "choices": {
+            "A": "Aksiyon",
+            "B": "Korku",
+            "C": "Bilim Kurgu"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "character": "Erkek Model",
+        "difficulty_level": 1,
+        "hint": "Araba kullanmayı sever misin? Hızlı arabalar her zaman ilgimi çekmiştir.",
+        "question": "Hangi araba markasını tercih ederdin?",
+        "choices": {
+            "A": "Ferrari",
+            "B": "Tesla",
+            "C": "Ford"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 5,
+        "character": "Erkek Model",
+        "difficulty_level": 1,
+        "hint": "Giyim tarzı kişiliği yansıtır derler, katılıyor musun?",
+        "question": "Giyim tarzın nasıl?",
+        "choices": {
+            "A": "Resmi",
+            "B": "Spor",
+            "C": "Casual"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 6,
+        "character": "Erkek Model",
+        "difficulty_level": 1,
+        "hint": "Tatilde genellikle macera mı ararsın, yoksa rahatlamayı mı tercih edersin?",
+        "question": "Tatilde nereye gitmek isterdin?",
+        "choices": {
+            "A": "Bali",
+            "B": "İsviçre Alpleri",
+            "C": "New York"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 7,
+        "character": "Erkek Model",
+        "difficulty_level": 1,
+        "hint": "Hangi müzik türü seni daha çok motive eder?",
+        "question": "En sevdiğin müzik türü nedir?",
+        "choices": {
+            "A": "Rock",
+            "B": "Hip-hop",
+            "C": "Caz"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "character": "Erkek Model",
+        "difficulty_level": 1,
+        "hint": "Evcil hayvan beslemek konusunda ne düşünüyorsun?",
+        "question": "Hangi evcil hayvanı beslemek isterdin?",
+        "choices": {
+            "A": "Köpek",
+            "B": "Kedi",
+            "C": "Papağan"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "character": "Erkek Model",
+        "difficulty_level": 1,
+        "hint": "Bence en iyi akşam planı arkadaşlarla dışarı çıkıp eğlenmektir, ya sen?",
+        "question": "Hafta sonu planın ne olurdu?",
+        "choices": {
+            "A": "Dışarı çıkıp arkadaşlarla eğlenmek",
+            "B": "Evde dinlenmek",
+            "C": "Spor yapmak"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 10,
+        "character": "Erkek Model",
+        "difficulty_level": 1,
+        "hint": "Beyin gücü mü, fiziksel güç mü? Sence hangisi daha önemli?",
+        "question": "Zeka mı, fiziksel güç mü daha önemli?",
+        "choices": {
+            "A": "Zeka",
+            "B": "Güç",
+            "C": "Denge"
+        },
+        "correct_answer": "C"
+    }
+]

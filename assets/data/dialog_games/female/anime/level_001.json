@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Anime Kızı",
+        "difficulty_level": 1,
+        "hint": "Bence en iyi güç, her yere kolayca ulaşabilmek olurdu, değil mi? Ama bazıları düşüncelerini okumayı tercih eder...",
+        "question": "Bir anime karakteri olsaydın, hangi güce sahip olmak isterdin?",
+        "choices": {
+            "A": "Süper hız",
+            "B": "Zihin okuma",
+            "C": "Işınlanma"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 2,
+        "character": "Anime Kızı",
+        "difficulty_level": 1,
+        "hint": "Japon yemekleri gerçekten lezzetli! Sıcak ve doyurucu olanları daha çok severim.",
+        "question": "Bir Japon yemeği deneyecek olsan, hangisini seçerdin?",
+        "choices": {
+            "A": "Sushi",
+            "B": "Ramen",
+            "C": "Okonomiyaki"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "character": "Anime Kızı",
+        "difficulty_level": 1,
+        "hint": "Bazı animelerde savaşlar olur ama bazılarında tatlı hikayeler anlatılır...",
+        "question": "Hangi anime türü seni daha çok cezbeder?",
+        "choices": {
+            "A": "Shonen",
+            "B": "Isekai",
+            "C": "Slice of Life"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "character": "Anime Kızı",
+        "difficulty_level": 1,
+        "hint": "Yıldızların altında dilek dilemek gerçekten büyüleyici değil mi?",
+        "question": "Bir festivale gitmek istesen, hangi Japon festivalini seçerdin?",
+        "choices": {
+            "A": "Hanami",
+            "B": "Tanabata",
+            "C": "Gion Matsuri"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 5,
+        "character": "Anime Kızı",
+        "difficulty_level": 1,
+        "hint": "Japonya'nın tarihi şehirleri büyüleyicidir ama en hareketli yer neresi acaba?",
+        "question": "Japonya'ya seyahat etsen, hangi şehri ziyaret etmek isterdin?",
+        "choices": {
+            "A": "Kyoto",
+            "B": "Tokyo",
+            "C": "Osaka"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 6,
+        "character": "Anime Kızı",
+        "difficulty_level": 1,
+        "hint": "Bence en güçlü anime karakterleri her zaman en karizmatik olanlar değil midir?",
+        "question": "Hangi anime karakteriyle bir gün geçirmek isterdin?",
+        "choices": {
+            "A": "Levi Ackerman",
+            "B": "Gojou Satoru",
+            "C": "Luffy"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 7,
+        "character": "Anime Kızı",
+        "difficulty_level": 1,
+        "hint": "Bazı animeler efsanevi olarak anılır... Peki ya senin için?",
+        "question": "Hangi klasik animeyi izlemek zorunda kalsan, hangisini seçerdin?",
+        "choices": {
+            "A": "Neon Genesis Evangelion",
+            "B": "Akira",
+            "C": "Cowboy Bebop"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 8,
+        "character": "Anime Kızı",
+        "difficulty_level": 1,
+        "hint": "Tatlılar konusunda Japonya gerçekten yaratıcı, ama en klasik olanlar her zaman favorim!",
+        "question": "Hangi Japon tatlısı seni daha çok mutlu eder?",
+        "choices": {
+            "A": "Mochi",
+            "B": "Dorayaki",
+            "C": "Taiyaki"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "character": "Anime Kızı",
+        "difficulty_level": 1,
+        "hint": "Japon mitolojisi harikadır, bazılarının insanlara yardım ettiği bile söylenir...",
+        "question": "Japon mitolojisindeki hangi yaratık daha ilginç?",
+        "choices": {
+            "A": "Kitsune",
+            "B": "Tengu",
+            "C": "Oni"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 10,
+        "character": "Anime Kızı",
+        "difficulty_level": 1,
+        "hint": "Bazı dünyalar gerçekten tehlikeli ama macera dolu... Hangisini seçerdin?",
+        "question": "Bir anime dünyasında yaşamak zorunda olsan, hangisini seçerdin?",
+        "choices": {
+            "A": "Attack on Titan",
+            "B": "My Hero Academia",
+            "C": "One Piece"
+        },
+        "correct_answer": "C"
+    }
+]

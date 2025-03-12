@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Sanatsal ve Duygusal Erkek",
+        "difficulty_level": 5,
+        "hint": "Sanat, ruhun derinliklerini yansıtır. Beni anlamak istiyorsan, duygularıma dokunmalısın!",
+        "question": "İlk buluşmada nereye gitmek isterdim?",
+        "choices": {
+            "A": "Bir sanat galerisi gezmeye",
+            "B": "Gece kulübüne gitmeye",
+            "C": "Ekstrem bir spor denemeye"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 2,
+        "character": "Sanatsal ve Duygusal Erkek",
+        "difficulty_level": 5,
+        "hint": "Beni en çok etkileyen şey, anlamı olan bir hediyedir.",
+        "question": "Bana en iyi hediye ne olurdu?",
+        "choices": {
+            "A": "El yapımı bir resim",
+            "B": "Lüks bir saat",
+            "C": "Son model bir telefon"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 3,
+        "character": "Sanatsal ve Duygusal Erkek",
+        "difficulty_level": 5,
+        "hint": "Duygularımı yansıtan filmler her zaman ilgimi çeker.",
+        "question": "Hangi film türü beni daha çok etkiler?",
+        "choices": {
+            "A": "Sanatsal ve dramatik filmler",
+            "B": "Bilim kurgu",
+            "C": "Aksiyon filmleri"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 4,
+        "character": "Sanatsal ve Duygusal Erkek",
+        "difficulty_level": 5,
+        "hint": "Derin sohbetler her zaman ilgimi çeker.",
+        "question": "Beni en çok hangi konuşma tarzı etkiler?",
+        "choices": {
+            "A": "Duygusal ve anlamlı sohbetler yapmak",
+            "B": "Yüzeysel ve eğlenceli sohbetler yapmak",
+            "C": "Kısa ve direkt konuşmalar yapmak"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 5,
+        "character": "Sanatsal ve Duygusal Erkek",
+        "difficulty_level": 5,
+        "hint": "Sanat ve doğa benim ilham kaynaklarım.",
+        "question": "Birlikte nasıl bir tatil yapardık?",
+        "choices": {
+            "A": "Sanatsal bir Avrupa turu",
+            "B": "Lüks bir tatil köyü",
+            "C": "Adrenalin dolu bir macera tatili"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 6,
+        "character": "Sanatsal ve Duygusal Erkek",
+        "difficulty_level": 5,
+        "hint": "Bir ilişkide en önemli şey duygusal bağdır!",
+        "question": "Bir ilişkide benim için en önemli şey nedir?",
+        "choices": {
+            "A": "Derin duygusal bağ",
+            "B": "Macera ve heyecan",
+            "C": "Lüks ve konfor"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 7,
+        "character": "Sanatsal ve Duygusal Erkek",
+        "difficulty_level": 5,
+        "hint": "Müzik benim duygularımı en iyi yansıtan sanat dalıdır.",
+        "question": "En çok hangi müzik türü beni etkiler?",
+        "choices": {
+            "A": "Klasik müzik ve film müzikleri",
+            "B": "Pop ve dans müzikleri",
+            "C": "Elektronik müzik"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 8,
+        "character": "Sanatsal ve Duygusal Erkek",
+        "difficulty_level": 5,
+        "hint": "Duygularımı anlamaya çalışan biri benim için değerlidir.",
+        "question": "Beni en çok hangi davranış etkiler?",
+        "choices": {
+            "A": "Duygularımı gerçekten dinlemek ve anlamak",
+            "B": "Sürekli sürprizler yapmak",
+            "C": "Macera dolu bir hayat yaşamak"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 9,
+        "character": "Sanatsal ve Duygusal Erkek",
+        "difficulty_level": 5,
+        "hint": "Sanat ve edebiyat benim için büyük bir tutkudur.",
+        "question": "Beni en çok hangi etkinlik mutlu eder?",
+        "choices": {
+            "A": "Birlikte bir sanat müzesini gezmek",
+            "B": "Adrenalin dolu bir spor yapmak",
+            "C": "Teknolojik bir sergiyi gezmek"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 10,
+        "character": "Sanatsal ve Duygusal Erkek",
+        "difficulty_level": 5,
+        "hint": "Gerçekten anlam taşıyan bir bağ benim için her şeydir.",
+        "question": "Beni en çok hangi yaklaşım etkiler?",
+        "choices": {
+            "A": "Beni gerçekten anlamaya çalışan biri olmak",
+            "B": "Sürekli eğlenceli aktiviteler düzenlemek",
+            "C": "Maddi hediyelerle ilgilenmek"
+        },
+        "correct_answer": "A"
+    }
+]

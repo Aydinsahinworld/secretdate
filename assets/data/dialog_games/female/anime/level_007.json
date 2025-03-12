@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Kuudere - Soğuk ama İçten",
+        "difficulty_level": 7,
+        "hint": "Sessizlik iyidir. Fazla konuşmaya gerek yok.",
+        "question": "İlk buluşmada nereye gitmek isterdim?",
+        "choices": {
+            "A": "Sessiz bir çay bahçesinde oturmak",
+            "B": "Gürültülü bir eğlence parkına gitmek",
+            "C": "Karaoke yaparak eğlenmek"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 2,
+        "character": "Kuudere - Soğuk ama İçten",
+        "difficulty_level": 7,
+        "hint": "Hediye... Gerekli değil. Ama eğer vereceksen, basit ve anlamlı olmalı.",
+        "question": "Bana en iyi hediye ne olurdu?",
+        "choices": {
+            "A": "Minimalist bir bileklik",
+            "B": "Büyük, gösterişli bir peluş oyuncak",
+            "C": "Parfüm ve lüks makyaj seti"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "character": "Kuudere - Soğuk ama İçten",
+        "difficulty_level": 7,
+        "hint": "İçinde derin düşünceler barındırmayan şeyler... ilgimi çekmez.",
+        "question": "Hangi anime türü benim favorimdir?",
+        "choices": {
+            "A": "Bilim kurgu ve psikolojik gerilim",
+            "B": "Komedi ve romantik dramalar",
+            "C": "Shounen aksiyon"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 4,
+        "character": "Kuudere - Soğuk ama İçten",
+        "difficulty_level": 7,
+        "hint": "Duygularını göstermekten çekinmeyen karakterler... fazla gürültücüler.",
+        "question": "Hangi anime karakteri benim favorimdir?",
+        "choices": {
+            "A": "Rei Ayanami (Neon Genesis Evangelion)",
+            "B": "Usagi Tsukino (Sailor Moon)",
+            "C": "Nami (One Piece)"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 5,
+        "character": "Kuudere - Soğuk ama İçten",
+        "difficulty_level": 7,
+        "hint": "Yemekler... sadece vücudu beslemek için vardır.",
+        "question": "Favori Japon yemeğim nedir?",
+        "choices": {
+            "A": "Onigiri",
+            "B": "Takoyaki",
+            "C": "Yakisoba"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 6,
+        "character": "Kuudere - Soğuk ama İçten",
+        "difficulty_level": 7,
+        "hint": "Fazla süs gereksizdir. Ama işlevsellik önemlidir.",
+        "question": "Benim en sevdiğim aksesuar nedir?",
+        "choices": {
+            "A": "Sade bir saat",
+            "B": "Parlak bir kolye",
+            "C": "Kawaii hayvan figürlü toka"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 7,
+        "character": "Kuudere - Soğuk ama İçten",
+        "difficulty_level": 7,
+        "hint": "Eğer bir festivale gitmem gerekseydi... kalabalıktan kaçınırdım.",
+        "question": "Japonya’daki en sevdiğim festival nedir?",
+        "choices": {
+            "A": "Tanabata (Yıldız Festivali)",
+            "B": "Awa Odori (Dans Festivali)",
+            "C": "Natsu Matsuri (Yaz Festivali)"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "character": "Kuudere - Soğuk ama İçten",
+        "difficulty_level": 7,
+        "hint": "Sessiz ve huzurlu bir ortamda, fazla konuşmaya gerek olmadan vakit geçirebilmek önemli.",
+        "question": "Japonya’da en sevdiğim türdeki kafe hangisidir?",
+        "choices": {
+            "A": "Manga Cafe",
+            "B": "Maid Cafe",
+            "C": "Butler Cafe"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 9,
+        "character": "Kuudere - Soğuk ama İçten",
+        "difficulty_level": 7,
+        "hint": "Konuşurken genelde kısa cevaplar veririm. En sık kullandığım kelime bu olabilir.",
+        "question": "En sevdiğim Japonca kelime nedir?",
+        "choices": {
+            "A": "Souka (Anlıyorum)",
+            "B": "Sugoi! (Harika!)",
+            "C": "Baka! (Aptal!)"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 10,
+        "character": "Kuudere - Soğuk ama İçten",
+        "difficulty_level": 7,
+        "hint": "İlişkilerde aşırı duygusallık gereksizdir. Denge önemlidir.",
+        "question": "Beni en çok hangi ilişki türü mutlu eder?",
+        "choices": {
+            "A": "Sessiz ve karşılıklı anlayışa dayalı bir ilişki",
+            "B": "Sürekli macera ve hareket içeren bir ilişki",
+            "C": "Tutkulu ve duygusal bir ilişki"
+        },
+        "correct_answer": "A"
+    }
+]

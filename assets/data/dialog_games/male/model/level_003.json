@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Zarif ve Klas Erkek",
+        "difficulty_level": 3,
+        "hint": "Şıklık ve zarafet benim için önemlidir. Beni etkilemek istiyorsan, özen göstermelisin!",
+        "question": "İlk buluşmada nereye gitmek isterdim?",
+        "choices": {
+            "A": "Şık bir restoranda akşam yemeği",
+            "B": "Hızlı ve eğlenceli bir aktiviteye",
+            "C": "Evde rahat bir film gecesine"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 2,
+        "character": "Zarif ve Klas Erkek",
+        "difficulty_level": 3,
+        "hint": "Detaylar benim için çok önemlidir. Hediyenin anlamı ve kalitesi dikkatimi çeker!",
+        "question": "Bana en iyi hediye ne olurdu?",
+        "choices": {
+            "A": "El yapımı özel bir saat",
+            "B": "Sıradan bir kahve kupası",
+            "C": "Teknolojik bir cihaz"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 3,
+        "character": "Zarif ve Klas Erkek",
+        "difficulty_level": 3,
+        "hint": "Kaliteli ve düşündürücü filmler benim için vazgeçilmezdir.",
+        "question": "Hangi film türü beni daha çok etkiler?",
+        "choices": {
+            "A": "Sanatsal ve derin filmler",
+            "B": "Korku",
+            "C": "Bilim kurgu"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 4,
+        "character": "Zarif ve Klas Erkek",
+        "difficulty_level": 3,
+        "hint": "Nazik ve ölçülü konuşmalar benim için önemlidir.",
+        "question": "Beni en çok hangi konuşma tarzı etkiler?",
+        "choices": {
+            "A": "Düşünceli ve nazik konuşmalar yapmak",
+            "B": "Sürekli espriler yapmak",
+            "C": "Sade ve kısa konuşmalar yapmak"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 5,
+        "character": "Zarif ve Klas Erkek",
+        "difficulty_level": 3,
+        "hint": "Tatilde lüks ve rahatlık benim için önemlidir!",
+        "question": "Birlikte nasıl bir tatil yapardık?",
+        "choices": {
+            "A": "Lüks bir tatil köyü",
+            "B": "Sıradan bir kamp tatili",
+            "C": "Ekstrem sporlarla dolu bir tatil"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 6,
+        "character": "Zarif ve Klas Erkek",
+        "difficulty_level": 3,
+        "hint": "Benim için bir ilişkide zarafet ve sadelik her şeydir.",
+        "question": "Bir ilişkide benim için en önemli şey nedir?",
+        "choices": {
+            "A": "Güven ve saygı",
+            "B": "Sürekli sürprizler ve maceralar",
+            "C": "Bağımsız ve özgür olmak"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 7,
+        "character": "Zarif ve Klas Erkek",
+        "difficulty_level": 3,
+        "hint": "Müzik benim için bir yaşam tarzıdır. Şıklık ve kalite içermeli.",
+        "question": "En çok hangi müzik türü beni etkiler?",
+        "choices": {
+            "A": "Caz ve klasik müzik",
+            "B": "Rap ve hip-hop",
+            "C": "Elektronik müzik"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 8,
+        "character": "Zarif ve Klas Erkek",
+        "difficulty_level": 3,
+        "hint": "Beni gerçekten kazanmak istiyorsan, saygın ve zarif olmalısın.",
+        "question": "Beni en çok hangi yaklaşım etkiler?",
+        "choices": {
+            "A": "Saygılı ve zarif bir şekilde yaklaşmak",
+            "B": "Sürekli cesur ve atılgan olmak",
+            "C": "Mizahi ve hafif konuşmalar yapmak"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "character": "Zarif ve Klas Erkek",
+        "difficulty_level": 3,
+        "hint": "Özel anlar, detaylarda gizlidir.",
+        "question": "Beni en çok hangi türde bir randevu etkiler?",
+        "choices": {
+            "A": "Şık bir akşam yemeği ve ardından klasik müzik konseri",
+            "B": "Eğlenceli bir lunapark gezisi",
+            "C": "Macera dolu bir kamp gezisi"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 10,
+        "character": "Zarif ve Klas Erkek",
+        "difficulty_level": 3,
+        "hint": "Benim için önemli olan, nasıl göründüğünden çok, nasıl davrandığındır.",
+        "question": "Beni en çok hangi özellik etkiler?",
+        "choices": {
+            "A": "Zarafet ve görgü kurallarına hâkim olmak",
+            "B": "Dışa dönük ve cesur olmak",
+            "C": "Macera ve adrenalin tutkunu olmak"
+        },
+        "correct_answer": "C"
+    }
+]

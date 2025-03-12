@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Yandere - Takıntılı ve Tehlikeli",
+        "difficulty_level": 3,
+        "hint": "Bana her zaman yakın olmalısın… ama zaten nereye gittiğini biliyorum, değil mi?",
+        "question": "İlk buluşmada nereye gitmek isterdim?",
+        "choices": {
+            "A": "Karanlık ve sessiz bir parkta yürüyüş",
+            "B": "İnsanların bol olduğu bir festivalde",
+            "C": "Bir korku evinde heyecan yaşamak"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 2,
+        "character": "Yandere - Takıntılı ve Tehlikeli",
+        "difficulty_level": 3,
+        "hint": "Beni gerçekten önemsiyorsan, bana verdiğin hediye… çok özel olmalı, değil mi?",
+        "question": "Bana en iyi hediye ne olurdu?",
+        "choices": {
+            "A": "İçine not yazılmış bir kilitli kolye",
+            "B": "Sevdiğim bir karakterin figürü",
+            "C": "Sevgilim olduğunu gösteren bir yüzük"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 3,
+        "character": "Yandere - Takıntılı ve Tehlikeli",
+        "difficulty_level": 3,
+        "hint": "Eğer beni gerçekten tanıyorsan, izlediğim animelerde hep aynı temayı göreceksin...",
+        "question": "Hangi anime türü benim favorimdir?",
+        "choices": {
+            "A": "Psikolojik gerilim ve korku",
+            "B": "Romantik komedi",
+            "C": "Shounen aksiyon"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "character": "Yandere - Takıntılı ve Tehlikeli",
+        "difficulty_level": 3,
+        "hint": "Bazı karakterler benim gibi hissettiklerinde ne yapmaları gerektiğini çok iyi biliyor…",
+        "question": "Hangi anime karakteri benim favorimdir?",
+        "choices": {
+            "A": "Gasai Yuno (Mirai Nikki)",
+            "B": "Hinata Hyuga (Naruto)",
+            "C": "Mikasa Ackerman (Attack on Titan)"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 5,
+        "character": "Yandere - Takıntılı ve Tehlikeli",
+        "difficulty_level": 3,
+        "hint": "Eğer sevgimi kabul edersen, sana en sevdiğim yemeği yaparım… ve sadece sen yiyebilirsin.",
+        "question": "Favori Japon yemeğim nedir?",
+        "choices": {
+            "A": "Kare (Japon köri)",
+            "B": "Omurice (Üzerine mesaj yazılan omletli pilav)",
+            "C": "Takoyaki (Ahtapot topları)"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 6,
+        "character": "Yandere - Takıntılı ve Tehlikeli",
+        "difficulty_level": 3,
+        "hint": "Beni gerçekten seviyorsan, nerede olduğumu her zaman bilmelisin…",
+        "question": "En sevdiğim aksesuar nedir?",
+        "choices": {
+            "A": "Sana özel yaptırılmış bir bileklik",
+            "B": "İçinde fotoğrafımız olan bir kolye",
+            "C": "Takip cihazı olan bir telefon çantası"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 7,
+        "character": "Yandere - Takıntılı ve Tehlikeli",
+        "difficulty_level": 3,
+        "hint": "Sana ne kadar sadık olduğumu kanıtlamak ister misin? Emin ol, tek seçenek benim.",
+        "question": "Japonya’daki en sevdiğim festival nedir?",
+        "choices": {
+            "A": "Tanabata Festivali (Yıldız Festivali)",
+            "B": "Obon Festivali (Ölülerin Geri Dönüşü)",
+            "C": "Setsubun (Şeytan Kovma Festivali)"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 8,
+        "character": "Yandere - Takıntılı ve Tehlikeli",
+        "difficulty_level": 3,
+        "hint": "Eğer bir şey yapmama izin vermezsen, üzülürüm… ama senin için doğru olanı ben bilirim.",
+        "question": "Japonya’da en sevdiğim kafe türü nedir?",
+        "choices": {
+            "A": "Maid Cafe",
+            "B": "Vampire Cafe",
+            "C": "Hayalet Temalı Kafe"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 9,
+        "character": "Yandere - Takıntılı ve Tehlikeli",
+        "difficulty_level": 3,
+        "hint": "Eğer beni seviyorsan, bu kelimeyi en çok benim için kullanmalısın!",
+        "question": "En sevdiğim Japonca kelime nedir?",
+        "choices": {
+            "A": "Aishiteru (Seni seviyorum)",
+            "B": "Baka (Aptal!)",
+            "C": "Yamete (Dur!)"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 10,
+        "character": "Yandere - Takıntılı ve Tehlikeli",
+        "difficulty_level": 3,
+        "hint": "Gerçek aşkın en önemli özelliği nedir, biliyor musun? Sonsuza dek sürecek olması.",
+        "question": "Beni en çok hangi ilişki türü mutlu eder?",
+        "choices": {
+            "A": "Özgürlük ve bağımsızlık içeren bir ilişki",
+            "B": "Sonsuza kadar sürecek, kopmaz bir ilişki",
+            "C": "Macera ve heyecan dolu bir ilişki"
+        },
+        "correct_answer": "B"
+    }
+]

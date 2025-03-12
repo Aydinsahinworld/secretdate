@@ -1,0 +1,4 @@
+enum PlayerGender {
+  male,
+  female,
+} 

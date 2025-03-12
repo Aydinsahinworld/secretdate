@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Anime Erkeği",
+        "difficulty_level": 3,
+        "hint": "Eğer bir yetenek seçmek zorunda olsaydın, saldırı gücünü artırmayı mı, yoksa savunmayı mı tercih ederdin?",
+        "question": "Bir anime evreninde yaşamak istesen, hangisini seçerdin?",
+        "choices": {
+            "A": "Naruto",
+            "B": "Attack on Titan",
+            "C": "One Piece"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 2,
+        "character": "Anime Erkeği",
+        "difficulty_level": 3,
+        "hint": "En iyi Japon yemeği sence sıcak mı, yoksa soğuk mu yenmeli?",
+        "question": "Hangi Japon yemeğini denemek isterdin?",
+        "choices": {
+            "A": "Takoyaki",
+            "B": "Ramen",
+            "C": "Soba"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "character": "Anime Erkeği",
+        "difficulty_level": 3,
+        "hint": "Bir dövüş sahnesi izlerken en çok neye dikkat edersin?",
+        "question": "Bir anime dövüş sahnesinde olsan, hangi silahı kullanırdın?",
+        "choices": {
+            "A": "Katana",
+            "B": "Enerji patlaması",
+            "C": "Shuriken"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "character": "Anime Erkeği",
+        "difficulty_level": 3,
+        "hint": "Japon festivallerinin çoğunda geleneksel yiyecekler de olur, hangisi favorin olurdu?",
+        "question": "Japonya'nın en ünlü festivallerinden biri hangisidir?",
+        "choices": {
+            "A": "Tanabata",
+            "B": "Obon",
+            "C": "Hanami"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 5,
+        "character": "Anime Erkeği",
+        "difficulty_level": 3,
+        "hint": "Anime şehirleri mi, yoksa gerçek Japon şehirleri mi daha etkileyici?",
+        "question": "Bir anime ana karakteri olsan, hangi özelliğin ön plana çıkardı?",
+        "choices": {
+            "A": "Cesaret",
+            "B": "Zekâ",
+            "C": "Gizemli bir geçmiş"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 6,
+        "character": "Anime Erkeği",
+        "difficulty_level": 3,
+        "hint": "Bir animeyi unutulmaz yapan en önemli şey ne olabilir?",
+        "question": "En güçlü anime karakteri kimdir?",
+        "choices": {
+            "A": "Goku",
+            "B": "Saitama",
+            "C": "Madara"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 7,
+        "character": "Anime Erkeği",
+        "difficulty_level": 3,
+        "hint": "Shonen mi, seinen mi? Hangisi daha iyi?",
+        "question": "Bir günlüğüne bir anime karakteri olsan, hangisi olurdun?",
+        "choices": {
+            "A": "Levi Ackerman",
+            "B": "Luffy",
+            "C": "Gojou Satoru"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 8,
+        "character": "Anime Erkeği",
+        "difficulty_level": 3,
+        "hint": "Bazı animeler eski olsa da hâlâ izleniyor, peki neden?",
+        "question": "Japonya'ya gitseydin, ilk olarak hangi yeri ziyaret ederdin?",
+        "choices": {
+            "A": "Tokyo Tower",
+            "B": "Kyoto Tapınakları",
+            "C": "Akihabara"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 9,
+        "character": "Anime Erkeği",
+        "difficulty_level": 3,
+        "hint": "Bir okul animesinde hangi klişe karakter olurdun?",
+        "question": "Hangi anime efsaneleşmiş bir klasik olarak kabul edilir?",
+        "choices": {
+            "A": "Neon Genesis Evangelion",
+            "B": "Akira",
+            "C": "Cowboy Bebop"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 10,
+        "character": "Anime Erkeği",
+        "difficulty_level": 3,
+        "hint": "Geleneksel kıyafetlerden en bilindik olanı nedir?",
+        "question": "Hangi Japon mitolojik yaratığı en ilginçtir?",
+        "choices": {
+            "A": "Kitsune",
+            "B": "Tengu",
+            "C": "Oni"
+        },
+        "correct_answer": "A"
+    }
+]

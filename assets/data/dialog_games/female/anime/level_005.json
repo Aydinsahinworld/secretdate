@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Dandere - Sessiz ve Utangaç",
+        "difficulty_level": 5,
+        "hint": "...Sessiz ve sakin bir yer... çok fazla insan olmamalı...",
+        "question": "İlk buluşmada nereye gitmek isterdim?",
+        "choices": {
+            "A": "Küçük bir kitapçıda vakit geçirmek",
+            "B": "Gürültülü bir festivalde dolaşmak",
+            "C": "Kalabalık bir kafede oturmak"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 2,
+        "character": "Dandere - Sessiz ve Utangaç",
+        "difficulty_level": 5,
+        "hint": "Bir hediye... içten ve anlamlı olmalı... belki el yapımı...",
+        "question": "Bana en iyi hediye ne olurdu?",
+        "choices": {
+            "A": "El yazısıyla yazılmış bir mektup",
+            "B": "Yeni bir oyun konsolu",
+            "C": "Parfüm ve kozmetik seti"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 3,
+        "character": "Dandere - Sessiz ve Utangaç",
+        "difficulty_level": 5,
+        "hint": "Ben... genellikle... dramatik ve içe dönük hikâyeleri seviyorum...",
+        "question": "Hangi anime türü benim favorimdir?",
+        "choices": {
+            "A": "Dram ve Slice of Life",
+            "B": "Mecha ve bilim kurgu",
+            "C": "Shounen aksiyon"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "character": "Dandere - Sessiz ve Utangaç",
+        "difficulty_level": 5,
+        "hint": "...O çok güçlü ama aynı zamanda çok sessiz... tıpkı benim gibi...",
+        "question": "Hangi anime karakteri benim favorimdir?",
+        "choices": {
+            "A": "Hinata Hyuga (Naruto)",
+            "B": "Asuka Langley (Neon Genesis Evangelion)",
+            "C": "Mikasa Ackerman (Attack on Titan)"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 5,
+        "character": "Dandere - Sessiz ve Utangaç",
+        "difficulty_level": 5,
+        "hint": "Tatlı şeyler... her zaman bana huzur verir...",
+        "question": "Favori Japon yemeğim nedir?",
+        "choices": {
+            "A": "Mochi",
+            "B": "Soba (Japon eriştesi)",
+            "C": "Takoyaki"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 6,
+        "character": "Dandere - Sessiz ve Utangaç",
+        "difficulty_level": 5,
+        "hint": "Göz temasından kaçınmak için... en sevdiğim aksesuar önemli...",
+        "question": "Benim en sevdiğim aksesuar nedir?",
+        "choices": {
+            "A": "Büyük, yuvarlak gözlük",
+            "B": "Choker kolye",
+            "C": "Kawaii hayvan figürlü toka"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 7,
+        "character": "Dandere - Sessiz ve Utangaç",
+        "difficulty_level": 5,
+        "hint": "Sessiz bir atmosfer... ve geçmişi hatırlamak güzel olurdu...",
+        "question": "Japonya’daki en sevdiğim festival nedir?",
+        "choices": {
+            "A": "Obon Festivali (Ataların ruhlarını anma festivali)",
+            "B": "Tanabata (Yıldız Festivali)",
+            "C": "Nebuta Matsuri (Büyük fener festivali)"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "character": "Dandere - Sessiz ve Utangaç",
+        "difficulty_level": 5,
+        "hint": "Çok kalabalık olmayan... ve sakin bir atmosferi olan bir kafe...",
+        "question": "Japonya’da en sevdiğim türdeki kafe hangisidir?",
+        "choices": {
+            "A": "Manga Cafe",
+            "B": "Maid Cafe",
+            "C": "Robot Cafe"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "character": "Dandere - Sessiz ve Utangaç",
+        "difficulty_level": 5,
+        "hint": "Bu kelime... beni en iyi ifade ediyor...",
+        "question": "En sevdiğim Japonca kelime nedir?",
+        "choices": {
+            "A": "Shizuka (Sessiz)",
+            "B": "Sugoi (Harika)",
+            "C": "Baka (Aptal)"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 10,
+        "character": "Dandere - Sessiz ve Utangaç",
+        "difficulty_level": 5,
+        "hint": "Bağımsızlık mı? Macera mı? Yoksa... birlikte sessizce oturmak mı...?",
+        "question": "Beni en çok hangi ilişki türü mutlu eder?",
+        "choices": {
+            "A": "Sessiz ama derin bağlar içeren bir ilişki",
+            "B": "Sürekli macera dolu bir ilişki",
+            "C": "Özgür ve bağımsız bir ilişki"
+        },
+        "correct_answer": "A"
+    }
+]

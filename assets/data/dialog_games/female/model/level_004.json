@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "character": "Maceraperest Kadın",
+      "difficulty_level": 4,
+      "hint": "Benim için hayat, keşfetmek ve yeni maceralar yaşamak demektir!",
+      "question": "İlk buluşmada nereye gitmek isterdim?",
+      "choices": {
+        "A": "Dağda doğa yürüyüşü",
+        "B": "Lüks bir restoranda akşam yemeği",
+        "C": "Evde rahat bir film gecesi"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 2,
+      "character": "Maceraperest Kadın",
+      "difficulty_level": 4,
+      "hint": "Bana sıradan bir hediye alırsan, hiç şaşırmam! Ama beklenmedik bir şey olursa çok etkilenirim!",
+      "question": "Bana en iyi hediye ne olurdu?",
+      "choices": {
+        "A": "Paraşütle atlama bileti",
+        "B": "Bir buket çiçek",
+        "C": "El yapımı bir hediye"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 3,
+      "character": "Maceraperest Kadın",
+      "difficulty_level": 4,
+      "hint": "Rahat koltukta oturup izlemek bana göre değil, aksiyonun tam ortasında olmalıyım!",
+      "question": "Hangi film türü beni daha çok etkiler?",
+      "choices": {
+        "A": "Belgesel",
+        "B": "Aksiyon-Macera",
+        "C": "Dram"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 4,
+      "character": "Maceraperest Kadın",
+      "difficulty_level": 4,
+      "hint": "Eğer bir yerde sıkışıp kalırsak, liderliği ele alıp çözüm bulabilecek biri olmalısın!",
+      "question": "Birlikte bir yolculuk yaparsak, hangi özellik benim için önemli olur?",
+      "choices": {
+        "A": "Harika bir plan yapabilmen",
+        "B": "İşler kötü giderse bile pozitif kalabilmen",
+        "C": "Bütün kararları bana bırakman"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 5,
+      "character": "Maceraperest Kadın",
+      "difficulty_level": 4,
+      "hint": "Tatiller benim için sadece dinlenmek değil, aynı zamanda keşfetmek ve deneyim kazanmak demek!",
+      "question": "Birlikte nasıl bir tatil yapardık?",
+      "choices": {
+        "A": "Amazon ormanlarında kamp",
+        "B": "Bali’de lüks bir tatil",
+        "C": "Evde Netflix ve dinlenme tatili"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 6,
+      "character": "Maceraperest Kadın",
+      "difficulty_level": 4,
+      "hint": "Hareket etmek benim doğamda var, yerimde duramam!",
+      "question": "Beni en çok hangi etkinlik mutlu eder?",
+      "choices": {
+        "A": "Dağ bisikleti turu",
+        "B": "Lüks bir spa günü",
+        "C": "Sakin bir kitap okuma günü"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 7,
+      "character": "Maceraperest Kadın",
+      "difficulty_level": 4,
+      "hint": "Hayat, rutinleri kırmak için var! Benim için en büyük korku monoton bir hayat olurdu!",
+      "question": "Flört ettiğim biri nasıl olmalı?",
+      "choices": {
+        "A": "Düzenli ve planlı",
+        "B": "Spontane ve maceracı",
+        "C": "Evde vakit geçirmeyi seven biri"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 8,
+      "character": "Maceraperest Kadın",
+      "difficulty_level": 4,
+      "hint": "Sınırları zorlamak benim için bir yaşam tarzıdır!",
+      "question": "Hangi spor beni daha çok cezbeder?",
+      "choices": {
+        "A": "Serbest dalış",
+        "B": "Yoga",
+        "C": "Golf"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 9,
+      "character": "Maceraperest Kadın",
+      "difficulty_level": 4,
+      "hint": "Risk almadan büyük ödüller kazanamazsın!",
+      "question": "Birlikte hangi çılgın şeyi yapardık?",
+      "choices": {
+        "A": "Paraşütle atlama",
+        "B": "Şık bir akşam yemeği",
+        "C": "Müzede sanat gezisi"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 10,
+      "character": "Maceraperest Kadın",
+      "difficulty_level": 4,
+      "hint": "Özgüven ve cesaret, beni gerçekten etkileyen iki şeydir!",
+      "question": "Beni en çok hangi durumda etkileyebilirsin?",
+      "choices": {
+        "A": "Kendi sınırlarını zorlayarak",
+        "B": "Sakin ve düşünceli bir yaklaşım sergileyerek",
+        "C": "Beni dinleyerek ve duygusal destek vererek"
+      },
+      "correct_answer": "A"
+    }
+]

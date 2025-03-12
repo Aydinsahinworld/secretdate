@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Erkek Model",
+        "difficulty_level": 3,
+        "hint": "Spor salonuna gitmek mi, açık havada koşu yapmak mı daha keyiflidir?",
+        "question": "Hangi spor dalı en çok ilgini çeker?",
+        "choices": {
+            "A": "Futbol",
+            "B": "Basketbol",
+            "C": "Boks"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 2,
+        "character": "Erkek Model",
+        "difficulty_level": 3,
+        "hint": "Bir yemeği özel kılan şey içindeki malzemeler mi, yoksa kimin yaptığı mı?",
+        "question": "Bir restorana gittiğinde ne sipariş edersin?",
+        "choices": {
+            "A": "Hamburger",
+            "B": "Biftek",
+            "C": "Suşi"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "character": "Erkek Model",
+        "difficulty_level": 3,
+        "hint": "Aksiyon filmleri mi, yoksa bilim kurgu mu?",
+        "question": "En sevdiğin film türü hangisi?",
+        "choices": {
+            "A": "Aksiyon",
+            "B": "Korku",
+            "C": "Bilim Kurgu"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "character": "Erkek Model",
+        "difficulty_level": 3,
+        "hint": "Bir araba satın alırken dikkat edeceğin ilk şey nedir?",
+        "question": "Hangi araba markasını tercih ederdin?",
+        "choices": {
+            "A": "Ferrari",
+            "B": "Tesla",
+            "C": "Ford"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 5,
+        "character": "Erkek Model",
+        "difficulty_level": 3,
+        "hint": "Giyim tarzın senin hakkında çok şey söyler derler, sence doğru mu?",
+        "question": "Giyim tarzın nasıl?",
+        "choices": {
+            "A": "Resmi",
+            "B": "Spor",
+            "C": "Casual"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 6,
+        "character": "Erkek Model",
+        "difficulty_level": 3,
+        "hint": "Rahat bir tatil mi, yoksa bol aktiviteli bir tatil mi?",
+        "question": "Tatilde nereye gitmek isterdin?",
+        "choices": {
+            "A": "Bali",
+            "B": "İsviçre Alpleri",
+            "C": "New York"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 7,
+        "character": "Erkek Model",
+        "difficulty_level": 3,
+        "hint": "Müzik dinlerken en çok neye dikkat edersin?",
+        "question": "En sevdiğin müzik türü nedir?",
+        "choices": {
+            "A": "Rock",
+            "B": "Hip-hop",
+            "C": "Caz"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "character": "Erkek Model",
+        "difficulty_level": 3,
+        "hint": "Köpek mi, kedi mi? Hangisi daha iyi bir dost olur?",
+        "question": "Hangi evcil hayvanı beslemek isterdin?",
+        "choices": {
+            "A": "Köpek",
+            "B": "Kedi",
+            "C": "Papağan"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "character": "Erkek Model",
+        "difficulty_level": 3,
+        "hint": "Hafta sonlarını nasıl geçirmekten hoşlanırsın?",
+        "question": "Hafta sonu planın ne olurdu?",
+        "choices": {
+            "A": "Dışarı çıkıp arkadaşlarla eğlenmek",
+            "B": "Evde dinlenmek",
+            "C": "Spor yapmak"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 10,
+        "character": "Erkek Model",
+        "difficulty_level": 3,
+        "hint": "Düşünce gücüyle her şeyi çözebilir misin, yoksa fiziksel güç mü lazım?",
+        "question": "Zeka mı, fiziksel güç mü daha önemli?",
+        "choices": {
+            "A": "Zeka",
+            "B": "Güç",
+            "C": "Denge"
+        },
+        "correct_answer": "C"
+    }
+]

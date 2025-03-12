@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "character": "Gizemli ve Mesafeli Kadın",
+      "difficulty_level": 7,
+      "hint": "Herkese kendimi açmam. Sabırlı ve anlayışlı biri, beni tanıyabilir!",
+      "question": "İlk buluşmada nereye gitmek isterdim?",
+      "choices": {
+        "A": "Sessiz ve şık bir kafeye",
+        "B": "Büyük ve kalabalık bir partiye",
+        "C": "Ekstrem bir spor etkinliğine"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 2,
+      "character": "Gizemli ve Mesafeli Kadın",
+      "difficulty_level": 7,
+      "hint": "Anlamı olan bir şey, her zaman daha değerlidir.",
+      "question": "Bana en iyi hediye ne olurdu?",
+      "choices": {
+        "A": "Eski bir kitabın ilk baskısı",
+        "B": "Lüks bir mücevher",
+        "C": "Son moda bir çanta"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 3,
+      "character": "Gizemli ve Mesafeli Kadın",
+      "difficulty_level": 7,
+      "hint": "Beni içine çeken şeyler, düşündüren ve hissettiren şeylerdir.",
+      "question": "Hangi film türü beni daha çok etkiler?",
+      "choices": {
+        "A": "Gerilim",
+        "B": "Romantik komedi",
+        "C": "Bilim kurgu"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 4,
+      "character": "Gizemli ve Mesafeli Kadın",
+      "difficulty_level": 7,
+      "hint": "Doğru soruları soran biri, dikkatimi çeker!",
+      "question": "Beni en çok hangi konuşma tarzı etkiler?",
+      "choices": {
+        "A": "Derin ve anlamlı sorular sormak",
+        "B": "Esprili ve yüzeysel konuşmalar yapmak",
+        "C": "Sadece havadan sudan konuşmak"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 5,
+      "character": "Gizemli ve Mesafeli Kadın",
+      "difficulty_level": 7,
+      "hint": "Beni etkilemek için sabırlı olmalı ve gerçekten ilgilendiğini göstermelisin.",
+      "question": "Beni kazanmanın en iyi yolu nedir?",
+      "choices": {
+        "A": "Sabırla güvenimi kazanmak",
+        "B": "Sürekli ilgi göstermek",
+        "C": "Beni etkilemek için abartılı şeyler yapmak"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 6,
+      "character": "Gizemli ve Mesafeli Kadın",
+      "difficulty_level": 7,
+      "hint": "Sessizlik bazen kelimelerden daha güçlüdür.",
+      "question": "Beni en çok hangi an etkiler?",
+      "choices": {
+        "A": "Derin ve anlamlı bir sessizlik anı",
+        "B": "Yoğun ve tutkulu bir tartışma",
+        "C": "Hızlı ve eğlenceli bir sohbet"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 7,
+      "character": "Gizemli ve Mesafeli Kadın",
+      "difficulty_level": 7,
+      "hint": "Müzik, ruh halimi yansıtır. Sakin ve derin melodiler favorimdir.",
+      "question": "En çok hangi müzik türü beni etkiler?",
+      "choices": {
+        "A": "Lo-fi ve ambient",
+        "B": "Rock ve metal",
+        "C": "Pop ve dans müziği"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 8,
+      "character": "Gizemli ve Mesafeli Kadın",
+      "difficulty_level": 7,
+      "hint": "Özel anlar, gözle görülmeyen ama hissedilen şeylerdir.",
+      "question": "Beni en çok hangi davranış etkiler?",
+      "choices": {
+        "A": "Sessizce anlamaya çalışmak",
+        "B": "Sürekli ilgi göstermek",
+        "C": "Abartılı romantik jestler yapmak"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 9,
+      "character": "Gizemli ve Mesafeli Kadın",
+      "difficulty_level": 7,
+      "hint": "Güven inşa etmek zaman alır, ama bir kez kazanıldığında her şeyi değiştirir.",
+      "question": "Beni en çok hangi özellik etkiler?",
+      "choices": {
+        "A": "Güvenilir ve sabırlı olmak",
+        "B": "Dışa dönük ve enerjik olmak",
+        "C": "Hızlı ve atılgan olmak"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 10,
+      "character": "Gizemli ve Mesafeli Kadın",
+      "difficulty_level": 7,
+      "hint": "Beni gerçekten tanımak isteyen biri, derinlere inmelidir.",
+      "question": "Beni en çok hangi yaklaşım etkiler?",
+      "choices": {
+        "A": "Zamanla güven kazanarak",
+        "B": "Hızlı ve yoğun duygularla yaklaşarak",
+        "C": "Beni sürekli takip ederek"
+      },
+      "correct_answer": "A"
+    }
+]

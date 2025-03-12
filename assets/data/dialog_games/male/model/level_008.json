@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Analitik ve Zeki Erkek",
+        "difficulty_level": 8,
+        "hint": "Zeka ve mantık benim için çok önemlidir.",
+        "question": "İlk buluşmada nereye gitmek isterdim?",
+        "choices": {
+            "A": "Bir bilim müzesine gitmek",
+            "B": "Gürültülü bir partiye katılmak",
+            "C": "Macera parkında vakit geçirmek"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 2,
+        "character": "Analitik ve Zeki Erkek",
+        "difficulty_level": 8,
+        "hint": "Düşünmeye sevk eden hediyeler beni mutlu eder.",
+        "question": "Bana en iyi hediye ne olurdu?",
+        "choices": {
+            "A": "Satranç takımı",
+            "B": "En yeni oyun konsolu",
+            "C": "Modaya uygun bir kıyafet"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "character": "Analitik ve Zeki Erkek",
+        "difficulty_level": 8,
+        "hint": "Filmler benim için sadece eğlence değil, aynı zamanda bir zihin egzersizidir.",
+        "question": "Hangi film türü beni daha çok etkiler?",
+        "choices": {
+            "A": "Bilim kurgu",
+            "B": "Komedi",
+            "C": "Aksiyon"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 4,
+        "character": "Analitik ve Zeki Erkek",
+        "difficulty_level": 8,
+        "hint": "Konuşmalar mantıklı ve düşündürücü olmalıdır.",
+        "question": "Beni en çok hangi konuşma tarzı etkiler?",
+        "choices": {
+            "A": "Derin ve mantıklı konuşmalar",
+            "B": "Sadece eğlenceli sohbetler",
+            "C": "Sürekli espriler yapan biri"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 5,
+        "character": "Analitik ve Zeki Erkek",
+        "difficulty_level": 8,
+        "hint": "Tatillerimde yeni şeyler öğrenmek isterim.",
+        "question": "Birlikte nasıl bir tatil yapardık?",
+        "choices": {
+            "A": "Tarihi şehirleri gezmek",
+            "B": "Lüks bir tatil köyünde dinlenmek",
+            "C": "Dağcılık ve ekstrem sporlarla dolu bir tatil"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 6,
+        "character": "Analitik ve Zeki Erkek",
+        "difficulty_level": 8,
+        "hint": "Zeka, bir ilişkide en önemli şeydir.",
+        "question": "Bir ilişkide benim için en önemli şey nedir?",
+        "choices": {
+            "A": "Entelektüel uyum",
+            "B": "Sürekli macera",
+            "C": "Rahatlık ve eğlence"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 7,
+        "character": "Analitik ve Zeki Erkek",
+        "difficulty_level": 8,
+        "hint": "Müzik benim için bir düşünme aracıdır.",
+        "question": "En çok hangi müzik türü beni etkiler?",
+        "choices": {
+            "A": "Klasik müzik",
+            "B": "Pop",
+            "C": "Rock"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "character": "Analitik ve Zeki Erkek",
+        "difficulty_level": 8,
+        "hint": "Mantıklı ve stratejik düşünen insanlar beni etkiler.",
+        "question": "Beni en çok hangi davranış etkiler?",
+        "choices": {
+            "A": "Analitik düşünme yeteneği",
+            "B": "Sürekli sosyal olmak",
+            "C": "Duygularını her an paylaşmak"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 9,
+        "character": "Analitik ve Zeki Erkek",
+        "difficulty_level": 8,
+        "hint": "Düşünmek ve çözüm üretmek beni en çok mutlu eden şeydir.",
+        "question": "Beni en çok hangi etkinlik mutlu eder?",
+        "choices": {
+            "A": "Bir problem çözme yarışmasına katılmak",
+            "B": "Ekstrem bir spor yapmak",
+            "C": "Sosyal bir etkinlik düzenlemek"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 10,
+        "character": "Analitik ve Zeki Erkek",
+        "difficulty_level": 8,
+        "hint": "Mantıklı ve tutarlı bir yaklaşım benim için önemlidir.",
+        "question": "Beni en çok hangi yaklaşım etkiler?",
+        "choices": {
+            "A": "Mantıklı ve tutarlı bir yaklaşım",
+            "B": "Sürekli eğlence ve spontane hareketler",
+            "C": "Duygularını her zaman ön planda tutmak"
+        },
+        "correct_answer": "A"
+    }
+]

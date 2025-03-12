@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "karakter",
+        "difficulty_level": 9,
+        "hint": "Eğer bir karakterin gücünü seçebilseydin, savaşçı mı, yoksa büyücü mü olurdun?",
+        "question": "Hangi oyun mekanikleri en önemli kabul edilir?",
+        "choices": {
+            "A": "Savaş sistemi",
+            "B": "Hikâye anlatımı",
+            "C": "Çok oyunculu mod"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 2,
+        "character": "karakter",
+        "difficulty_level": 9,
+        "hint": "Açık dünya oyunlarında keşfetmek mi, görev yapmak mı daha eğlencelidir?",
+        "question": "Bir RPG oyununda hangi sınıfı seçerdin?",
+        "choices": {
+            "A": "Büyücü",
+            "B": "Savaşçı",
+            "C": "Hırsız"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "character": "karakter",
+        "difficulty_level": 9,
+        "hint": "Bazı oyun türleri refleks gerektirir, bazıları ise dikkat ve strateji...",
+        "question": "En sevdiğin oyun türü hangisi?",
+        "choices": {
+            "A": "Aksiyon",
+            "B": "Strateji",
+            "C": "Korku"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "character": "karakter",
+        "difficulty_level": 9,
+        "hint": "İlk boss savaşını hatırlıyor musun? Hangi tür boss daha zorludur?",
+        "question": "Açık dünya oyunlarında en önemli özellik nedir?",
+        "choices": {
+            "A": "Görevler",
+            "B": "Keşif",
+            "C": "Hikâye"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 5,
+        "character": "karakter",
+        "difficulty_level": 9,
+        "hint": "Bir RPG karakteri oluştururken, ilk olarak neyi seçersin?",
+        "question": "Bir oyun içi para birimi kazanmanın en iyi yolu nedir?",
+        "choices": {
+            "A": "Yan görevler yapmak",
+            "B": "Boss savaşlarını kazanmak",
+            "C": "Pazar yerinde ticaret yapmak"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 6,
+        "character": "karakter",
+        "difficulty_level": 9,
+        "hint": "Zindan keşfetmek mi, yoksa şehirde ticaret yapmak mı daha eğlenceli olurdu?",
+        "question": "En sevdiğin oyun şirketi hangisi?",
+        "choices": {
+            "A": "Nintendo",
+            "B": "Sony",
+            "C": "Microsoft"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 7,
+        "character": "karakter",
+        "difficulty_level": 9,
+        "hint": "En güçlü oyun karakterleri genellikle nasıl özelliklere sahiptir?",
+        "question": "Hangi oyun en iyi hikâyeye sahiptir?",
+        "choices": {
+            "A": "The Last of Us",
+            "B": "Red Dead Redemption 2",
+            "C": "Dark Souls"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 8,
+        "character": "karakter",
+        "difficulty_level": 9,
+        "hint": "Oyun dünyasında en ikonik karakter hangisidir?",
+        "question": "Oyun içi en güçlü silah türü nedir?",
+        "choices": {
+            "A": "Kılıç",
+            "B": "Büyü asası",
+            "C": "Tüfek"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 9,
+        "character": "karakter",
+        "difficulty_level": 9,
+        "hint": "Hangi oyun tarzı seni daha çok içine çeker?",
+        "question": "Oyunlarda en zorlu düşman tipi hangisidir?",
+        "choices": {
+            "A": "Boss düşmanları",
+            "B": "Hızlı küçük yaratıklar",
+            "C": "Devasa yaratıklar"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 10,
+        "character": "karakter",
+        "difficulty_level": 9,
+        "hint": "Oyunların atmosferini en çok ne belirler?",
+        "question": "Hangi oyun dünyasında yaşamak isterdin?",
+        "choices": {
+            "A": "Hyrule",
+            "B": "Skyrim",
+            "C": "Rapture"
+        },
+        "correct_answer": "B"
+    }
+]

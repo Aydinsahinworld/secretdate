@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "character": "Özgüvenli ve Bağımsız Kadın",
+      "difficulty_level": 6,
+      "hint": "Güçlü bir karakter beni etkiler. Kendi ayakları üzerinde duran biriyle konuşmayı severim!",
+      "question": "İlk buluşmada nereye gitmek isterdim?",
+      "choices": {
+        "A": "Tek başıma keşfe çıkabileceğim bir yer",
+        "B": "Lüks bir restoran",
+        "C": "Bir spor etkinliği"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 2,
+      "character": "Özgüvenli ve Bağımsız Kadın",
+      "difficulty_level": 6,
+      "hint": "Beni bir hediyeyle etkilemek kolay değil. Önemli olan hediyenin bana hitap etmesi!",
+      "question": "Bana en iyi hediye ne olurdu?",
+      "choices": {
+        "A": "Bir spor salonu üyeliği",
+        "B": "El yapımı bir mektup",
+        "C": "Son model bir telefon"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 3,
+      "character": "Özgüvenli ve Bağımsız Kadın",
+      "difficulty_level": 6,
+      "hint": "Hızlı tempolu ve akıllıca kurgulanmış filmler beni içine çeker!",
+      "question": "Hangi film türü beni daha çok etkiler?",
+      "choices": {
+        "A": "Aksiyon",
+        "B": "Dram",
+        "C": "Romantik komedi"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 4,
+      "character": "Özgüvenli ve Bağımsız Kadın",
+      "difficulty_level": 6,
+      "hint": "Kendi kararlarını verebilen birini görmek beni etkiler!",
+      "question": "Beni en çok hangi davranış etkiler?",
+      "choices": {
+        "A": "Bağımsız ve kararlı olmak",
+        "B": "Herkesin fikrini beklemek",
+        "C": "Sürekli başkalarının onayını almak"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 5,
+      "character": "Özgüvenli ve Bağımsız Kadın",
+      "difficulty_level": 6,
+      "hint": "Kendi yolunu çizen biri, benim için her zaman daha çekicidir!",
+      "question": "Flört ettiğim biri hangi özelliğe sahip olmalı?",
+      "choices": {
+        "A": "Özgüvenli ve kendinden emin olmalı",
+        "B": "Beni sürekli takip etmeli",
+        "C": "Başkalarının etkisinde kalmalı"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 6,
+      "character": "Özgüvenli ve Bağımsız Kadın",
+      "difficulty_level": 6,
+      "hint": "Hedefleri olan ve bu yolda ilerleyen biri beni her zaman etkiler!",
+      "question": "Beni en çok hangi durum etkiler?",
+      "choices": {
+        "A": "Kendi hayallerinin peşinden gitmen",
+        "B": "Sürekli benim planlarıma uyum sağlaman",
+        "C": "Hiçbir risk almadan hayatını yaşaman"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 7,
+      "character": "Özgüvenli ve Bağımsız Kadın",
+      "difficulty_level": 6,
+      "hint": "Müzik, ruh halimi yansıtır. Beni harekete geçiren melodiler favorimdir!",
+      "question": "En çok hangi müzik türü beni etkiler?",
+      "choices": {
+        "A": "Rock ve alternatif müzik",
+        "B": "Klasik müzik",
+        "C": "Pop şarkılar"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 8,
+      "character": "Özgüvenli ve Bağımsız Kadın",
+      "difficulty_level": 6,
+      "hint": "Özgürlük benim için vazgeçilmezdir! Beni kısıtlayan bir ilişki içinde olamam!",
+      "question": "Nasıl bir ilişki tarzı benim için daha uygundur?",
+      "choices": {
+        "A": "Özgürlükçü ve bağımsız bir ilişki",
+        "B": "Sürekli birlikte vakit geçirdiğimiz bir ilişki",
+        "C": "Kontrollü ve kurallara bağlı bir ilişki"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 9,
+      "character": "Özgüvenli ve Bağımsız Kadın",
+      "difficulty_level": 6,
+      "hint": "Zorluklar karşısında yılmayan biri benim için çok çekicidir!",
+      "question": "Beni en çok hangi özellik etkiler?",
+      "choices": {
+        "A": "Zorluklar karşısında güçlü kalmak",
+        "B": "Her konuda şikayetçi olmak",
+        "C": "Başkalarının çözümlerine güvenmek"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 10,
+      "character": "Özgüvenli ve Bağımsız Kadın",
+      "difficulty_level": 6,
+      "hint": "Gerçekten güçlü biri, başkalarına bağlı olmadan karar verebilir!",
+      "question": "Beni en çok hangi kararın etkiler?",
+      "choices": {
+        "A": "Kendi hayatına dair büyük bir adım atman",
+        "B": "Benim onayımı almadan hiçbir şey yapmaman",
+        "C": "Başkalarının yönlendirdiği bir hayat yaşaman"
+      },
+      "correct_answer": "A"
+    }
+]

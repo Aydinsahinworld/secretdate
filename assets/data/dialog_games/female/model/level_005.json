@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "character": "Sanatsal ve Duygusal Kadın",
+      "difficulty_level": 5,
+      "hint": "Sanat, ruhun en derin hislerini dışa vurmaktır. İçsel dünyası zengin birini severim!",
+      "question": "İlk buluşmada nereye gitmek isterdim?",
+      "choices": {
+        "A": "Bir sanat galerisini gezmeye",
+        "B": "Gürültülü bir partiye",
+        "C": "Ekstrem bir spor etkinliğine"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 2,
+      "character": "Sanatsal ve Duygusal Kadın",
+      "difficulty_level": 5,
+      "hint": "Bana alınan hediyenin değeri değil, anlamı önemli! Beni düşündüğünü hissettirmeli!",
+      "question": "Bana en iyi hediye ne olurdu?",
+      "choices": {
+        "A": "El yapımı bir şiir defteri",
+        "B": "Lüks bir kolye",
+        "C": "Son moda bir çanta"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 3,
+      "character": "Sanatsal ve Duygusal Kadın",
+      "difficulty_level": 5,
+      "hint": "Gerçek duygu içeren filmler beni içine çeker. Hikâyesi olan her şey değerlidir!",
+      "question": "Hangi film türü beni daha çok etkiler?",
+      "choices": {
+        "A": "Aksiyon",
+        "B": "Sanatsal ve derin dram",
+        "C": "Bilim kurgu"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 4,
+      "character": "Sanatsal ve Duygusal Kadın",
+      "difficulty_level": 5,
+      "hint": "Duygularını gizleyen biriyle iletişim kurmak benim için zor olur!",
+      "question": "Beni en çok hangi konuşma tarzı etkiler?",
+      "choices": {
+        "A": "Samimi ve içten bir sohbet",
+        "B": "Kısa ve yüzeysel konuşmalar",
+        "C": "Esprili ve eğlenceli diyaloglar"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 5,
+      "character": "Sanatsal ve Duygusal Kadın",
+      "difficulty_level": 5,
+      "hint": "İçtenlikle söylenen bir söz, en pahalı hediyeden daha değerlidir!",
+      "question": "Beni etkilemenin en iyi yolu nedir?",
+      "choices": {
+        "A": "Dürüst ve duygusal bir mektup yazmak",
+        "B": "Pahalı bir hediye almak",
+        "C": "Eğlenceli bir aktivite planlamak"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 6,
+      "character": "Sanatsal ve Duygusal Kadın",
+      "difficulty_level": 5,
+      "hint": "Görsellik kadar duyguların derinliği de önemlidir!",
+      "question": "Birlikte nasıl bir akşam geçirmek isterdim?",
+      "choices": {
+        "A": "Tiyatroyu izledikten sonra uzun bir yürüyüş yapmak",
+        "B": "Bir spor etkinliğine katılmak",
+        "C": "Lüks bir kulüpte vakit geçirmek"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 7,
+      "character": "Sanatsal ve Duygusal Kadın",
+      "difficulty_level": 5,
+      "hint": "Ruhumun derinliklerine hitap eden birini arıyorum!",
+      "question": "Flört ettiğim biri hangi özelliğe sahip olmalı?",
+      "choices": {
+        "A": "Duygusal derinliği olmalı",
+        "B": "Popüler ve dışa dönük olmalı",
+        "C": "Eğlenceli ama yüzeysel biri olmalı"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 8,
+      "character": "Sanatsal ve Duygusal Kadın",
+      "difficulty_level": 5,
+      "hint": "Sanat ve müzik benim için vazgeçilmez!",
+      "question": "En çok hangi müzik türü beni etkiler?",
+      "choices": {
+        "A": "Klasik müzik ve film müzikleri",
+        "B": "Elektronik müzik",
+        "C": "Rap"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 9,
+      "character": "Sanatsal ve Duygusal Kadın",
+      "difficulty_level": 5,
+      "hint": "Gerçek bir bağ, küçük detayları fark eden birinden gelir!",
+      "question": "Beni en çok hangi davranış etkiler?",
+      "choices": {
+        "A": "Küçük ama anlamlı sürprizler yapmak",
+        "B": "Dış görünüşüne çok önem vermek",
+        "C": "Her konuda ciddi ve katı olmak"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 10,
+      "character": "Sanatsal ve Duygusal Kadın",
+      "difficulty_level": 5,
+      "hint": "En derin hisler, kelimelerin ötesinde bir anlam taşır!",
+      "question": "Beni en çok hangi durum etkiler?",
+      "choices": {
+        "A": "Şiirsel ve duygusal bir an paylaşmak",
+        "B": "İlginç bir sohbet yapmak",
+        "C": "Macera dolu bir aktivite yapmak"
+      },
+      "correct_answer": "A"
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "character": "Nazik ve Romantik Kadın",
+      "difficulty_level": 1,
+      "hint": "Denizin sesi ve mum ışığında bir akşam yemeği benim için mükemmeldir!",
+      "question": "İlk buluşmada nereye gitmek isterdin?",
+      "choices": {
+        "A": "Sahilde bir akşam yemeği",
+        "B": "Gece kulübü",
+        "C": "Alışveriş merkezi"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 2,
+      "character": "Nazik ve Romantik Kadın",
+      "difficulty_level": 1,
+      "hint": "Kırmızı güller aşkın en güzel ifadesidir.",
+      "question": "Bana en iyi hediye ne olurdu?",
+      "choices": {
+        "A": "Çikolata",
+        "B": "Kırmızı güller",
+        "C": "Bir kitap"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "character": "Nazik ve Romantik Kadın",
+      "difficulty_level": 1,
+      "hint": "İçinde sevgi ve duygusallık olan hikâyeler beni her zaman etkiler.",
+      "question": "Hangi film türü beni daha çok etkiler?",
+      "choices": {
+        "A": "Romantik",
+        "B": "Aksiyon",
+        "C": "Korku"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 4,
+      "character": "Nazik ve Romantik Kadın",
+      "difficulty_level": 1,
+      "hint": "Nazik ve içten mesajlar günümü güzelleştirir ama fazla resmi olmasın!",
+      "question": "Bana nasıl bir mesaj atsan hoşuma gider?",
+      "choices": {
+        "A": "Günaydın, güzel uyudun mu?",
+        "B": "Uyandın mı?",
+        "C": "Bugün işlerim çok yoğun."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 5,
+      "character": "Nazik ve Romantik Kadın",
+      "difficulty_level": 1,
+      "hint": "Doğanın içinde, huzurlu bir tatil benim için paha biçilemez.",
+      "question": "Birlikte nasıl bir tatil yapardık?",
+      "choices": {
+        "A": "Paris’te romantik bir tatil",
+        "B": "Kamp yaparak doğada vakit geçirmek",
+        "C": "Ekstrem sporlarla dolu bir macera"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 6,
+      "character": "Nazik ve Romantik Kadın",
+      "difficulty_level": 1,
+      "hint": "Fiziksel güzellik önemli ama zekayı takdir eden biri benim için daha özel.",
+      "question": "En çok hangi iltifattan hoşlanırım?",
+      "choices": {
+        "A": "Gözlerin çok etkileyici.",
+        "B": "Bugün çok havalısın.",
+        "C": "Çok zekisin."
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 7,
+      "character": "Nazik ve Romantik Kadın",
+      "difficulty_level": 1,
+      "hint": "Duygularımı anlatan melodiler benim için çok özel.",
+      "question": "Hangi tür müzik beni etkiler?",
+      "choices": {
+        "A": "Romantik şarkılar",
+        "B": "Elektronik müzik",
+        "C": "Rap"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 8,
+      "character": "Nazik ve Romantik Kadın",
+      "difficulty_level": 1,
+      "hint": "Beni güzel bir kahvaltıyla uyandıran biri, kalbimi kazanır!",
+      "question": "Sabah beni en çok ne mutlu eder?",
+      "choices": {
+        "A": "Kahvaltı tepsisiyle uyandırılmak",
+        "B": "Gürültüyle uyandırılmak",
+        "C": "Sabah alarmına 100 mesaj bırakmak"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 9,
+      "character": "Nazik ve Romantik Kadın",
+      "difficulty_level": 1,
+      "hint": "Sanat benim ruhumu besler ama oyunlarla eğlenmeyi de severim!",
+      "question": "Birlikte hangi etkinliği yapmayı isterdim?",
+      "choices": {
+        "A": "Bir sanat galerisini gezmek",
+        "B": "Video oyunu oynamak",
+        "C": "Spor salonunda vakit geçirmek"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 10,
+      "character": "Nazik ve Romantik Kadın",
+      "difficulty_level": 1,
+      "hint": "Küçük detayları düşünen nazik biri, kalbimi kazanır!",
+      "question": "Flört ettiğim birinin en önemli özelliği ne olmalı?",
+      "choices": {
+        "A": "Düşünceli ve nazik olması",
+        "B": "Eğlenceli olması",
+        "C": "Çılgın ve maceracı olması"
+      },
+      "correct_answer": "A"
+    }
+]

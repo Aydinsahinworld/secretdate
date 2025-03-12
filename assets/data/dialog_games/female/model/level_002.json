@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "character": "Eğlenceli ve Çılgın Kadın",
+      "difficulty_level": 2,
+      "hint": "Sakin bir akşam bana göre değil! Adrenalin ve eğlence dolu anlar her zaman daha unutulmazdır!",
+      "question": "İlk buluşmada nereye gitmek isterdim?",
+      "choices": {
+        "A": "Lunaparka gidip çılgınca eğlenmek",
+        "B": "Şık bir restoranda yemek yemek",
+        "C": "Evde film izlemek"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 2,
+      "character": "Eğlenceli ve Çılgın Kadın",
+      "difficulty_level": 2,
+      "hint": "Beni mutlu etmek istiyorsan, klasik hediyeleri unut ve gerçekten şaşırtıcı bir şey yap!",
+      "question": "Bana en iyi hediye ne olurdu?",
+      "choices": {
+        "A": "Bir kutu çikolata",
+        "B": "Bungee jumping bileti",
+        "C": "Tasarım bir kolye"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "character": "Eğlenceli ve Çılgın Kadın",
+      "difficulty_level": 2,
+      "hint": "Film izlerken heyecan hissetmeliyim! Yerimde duramadan izlediğim filmleri severim.",
+      "question": "Hangi film türü beni daha çok etkiler?",
+      "choices": {
+        "A": "Romantik",
+        "B": "Macera",
+        "C": "Korku"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 4,
+      "character": "Eğlenceli ve Çılgın Kadın",
+      "difficulty_level": 2,
+      "hint": "Eğer sıkıcı bir mesaj atarsan, cevap alman çok zor olur!",
+      "question": "Bana nasıl bir mesaj atsan hoşuma gider?",
+      "choices": {
+        "A": "Komik bir GIF ve esprili bir mesaj",
+        "B": "Kısa ve resmi bir selam",
+        "C": "Uzun bir aşk mektubu"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 5,
+      "character": "Eğlenceli ve Çılgın Kadın",
+      "difficulty_level": 2,
+      "hint": "Tatilde denizde yatıp güneşlenmek değil, her an bir macera yaşamak isterim!",
+      "question": "Birlikte nasıl bir tatil yapardık?",
+      "choices": {
+        "A": "Bungee jumping ve dalış içeren bir macera tatili",
+        "B": "Bali'de lüks bir tatil",
+        "C": "Evde Netflix ve rahatlama tatili"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 6,
+      "character": "Eğlenceli ve Çılgın Kadın",
+      "difficulty_level": 2,
+      "hint": "Sıradan bir hayat yerine, her gün yeni bir macera yaşamak benim için daha değerli!",
+      "question": "Hayalimdeki yaşam tarzı nasıl olurdu?",
+      "choices": {
+        "A": "Lüks ve rahat bir yaşam",
+        "B": "Macera dolu, sürekli seyahat eden bir hayat",
+        "C": "Sessiz ve huzurlu bir kasaba hayatı"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 7,
+      "character": "Eğlenceli ve Çılgın Kadın",
+      "difficulty_level": 2,
+      "hint": "Beni etkileyen biri, her durumda eğlenmeyi bilen birisi olmalı!",
+      "question": "Flört ettiğim biri nasıl olmalı?",
+      "choices": {
+        "A": "Düzenli ve planlı",
+        "B": "Esprili ve spontane",
+        "C": "Sessiz ve sakin"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 8,
+      "character": "Eğlenceli ve Çılgın Kadın",
+      "difficulty_level": 2,
+      "hint": "Dans etmek ruhumu özgürleştirir! En iyi partiler, sabaha kadar sürenlerdir!",
+      "question": "Beni en çok hangi etkinlik mutlu eder?",
+      "choices": {
+        "A": "Bir konserde deli gibi eğlenmek",
+        "B": "Sessiz bir doğa yürüyüşü",
+        "C": "Şık bir akşam yemeği"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 9,
+      "character": "Eğlenceli ve Çılgın Kadın",
+      "difficulty_level": 2,
+      "hint": "Hız benim için vazgeçilmez! Araba kullanırken adrenalin hissetmeliyim!",
+      "question": "Hangi araba benim tarzıma daha uygundur?",
+      "choices": {
+        "A": "Lüks bir klasik araba",
+        "B": "Elektrikli ve çevreci bir araç",
+        "C": "Hızlı ve sportif bir araba"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 10,
+      "character": "Eğlenceli ve Çılgın Kadın",
+      "difficulty_level": 2,
+      "hint": "Hayatımı paylaşacağım biri, benimle beraber çılgın maceralara atılmalı!",
+      "question": "Beni en çok hangi durumda etkileyebilirsin?",
+      "choices": {
+        "A": "Risk alıp spontane bir macera planladığında",
+        "B": "Sakin ve kararlı duruşunla",
+        "C": "Gelecek planlarını detaylı anlattığında"
+      },
+      "correct_answer": "A"
+    }
+]

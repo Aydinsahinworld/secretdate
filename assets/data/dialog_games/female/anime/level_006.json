@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "character": "Genki Girl - Enerjik ve Maceraperest",
+        "difficulty_level": 6,
+        "hint": "Yerimde duramam! İlk buluşmada uzun süre oturmak sıkıcı olurdu, değil mi?!",
+        "question": "İlk buluşmada nereye gitmek isterdim?",
+        "choices": {
+            "A": "Lunaparkta adrenalini hissetmek",
+            "B": "Güzel bir müzede dolaşmak",
+            "C": "Sakin bir kitap kafede oturmak"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 2,
+        "character": "Genki Girl - Enerjik ve Maceraperest",
+        "difficulty_level": 6,
+        "hint": "Hediye almak eğlencelidir ama ben oturup bir şeye bakmaktansa onu denemek isterim!",
+        "question": "Bana en iyi hediye ne olurdu?",
+        "choices": {
+            "A": "Bungee jumping bileti",
+            "B": "Bir kutu çikolata",
+            "C": "Yeni bir oyun konsolu"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 3,
+        "character": "Genki Girl - Enerjik ve Maceraperest",
+        "difficulty_level": 6,
+        "hint": "Ben yavaş filmlerle uyuyakalırım, aksiyon olmalı, heyecan olmalı!",
+        "question": "Hangi anime türü benim favorimdir?",
+        "choices": {
+            "A": "Spor ve macera animeleri",
+            "B": "Romantik dramalar",
+            "C": "Psikolojik gerilim"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "character": "Genki Girl - Enerjik ve Maceraperest",
+        "difficulty_level": 6,
+        "hint": "Bu karakterin enerjisi asla bitmez, tıpkı benim gibi!",
+        "question": "Hangi anime karakteri benim favorimdir?",
+        "choices": {
+            "A": "Naru Narusegawa (Love Hina)",
+            "B": "Haruhi Suzumiya (The Melancholy of Haruhi Suzumiya)",
+            "C": "Misato Katsuragi (Neon Genesis Evangelion)"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 5,
+        "character": "Genki Girl - Enerjik ve Maceraperest",
+        "difficulty_level": 6,
+        "hint": "Japon mutfağındaki en sevdiğim yemek tabii ki hızlıca hazırlanıp yenebilen bir şey olmalı!",
+        "question": "Favori Japon yemeğim nedir?",
+        "choices": {
+            "A": "Yakisoba (Japon usulü noodle)",
+            "B": "Sushi",
+            "C": "Matcha dondurma"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 6,
+        "character": "Genki Girl - Enerjik ve Maceraperest",
+        "difficulty_level": 6,
+        "hint": "Kıyafetler ve aksesuarlar hareket özgürlüğü sağlamalı!",
+        "question": "Benim en sevdiğim aksesuar nedir?",
+        "choices": {
+            "A": "Spor ayakkabılar",
+            "B": "Kocaman bir şapka",
+            "C": "Gözlük"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 7,
+        "character": "Genki Girl - Enerjik ve Maceraperest",
+        "difficulty_level": 6,
+        "hint": "Festival zamanı eğlenmeliyim! Ama tabii ki durağan bir şey yapamam!",
+        "question": "Japonya’daki en sevdiğim festival nedir?",
+        "choices": {
+            "A": "Awa Odori (Dans festivali)",
+            "B": "Gion Matsuri (Kyoto’nun zarif festivali)",
+            "C": "Tanabata (Yıldız Festivali)"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "character": "Genki Girl - Enerjik ve Maceraperest",
+        "difficulty_level": 6,
+        "hint": "Kafeye gitmek eğlenceli olabilir, ama içinde biraz aksiyon olmalı!",
+        "question": "Japonya’da en sevdiğim türdeki kafe hangisidir?",
+        "choices": {
+            "A": "Ninja Cafe",
+            "B": "Maid Cafe",
+            "C": "Kedi Kafesi"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "character": "Genki Girl - Enerjik ve Maceraperest",
+        "difficulty_level": 6,
+        "hint": "Bu kelime benim enerjimi tam anlamıyla yansıtıyor!",
+        "question": "En sevdiğim Japonca kelime nedir?",
+        "choices": {
+            "A": "Genki! (Enerjik, canlı!)",
+            "B": "Sugoi! (Harika!)",
+            "C": "Baka! (Aptal!)"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 10,
+        "character": "Genki Girl - Enerjik ve Maceraperest",
+        "difficulty_level": 6,
+        "hint": "İlişkiler sıkıcı olmamalı! Hep hareket, hep eğlence!",
+        "question": "Beni en çok hangi ilişki türü mutlu eder?",
+        "choices": {
+            "A": "Macera ve heyecan dolu bir ilişki",
+            "B": "Sessiz ve huzurlu bir ilişki",
+            "C": "Lüks içinde yaşanan bir ilişki"
+        },
+        "correct_answer": "A"
+    }
+]

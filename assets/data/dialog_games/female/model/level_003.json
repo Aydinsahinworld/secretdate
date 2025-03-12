@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "character": "Zarif ve Klas Kadın",
+      "difficulty_level": 3,
+      "hint": "Benim için kalite her şeydir. Zarif bir ortamda, şık bir akşam yemeği gibisi yok!",
+      "question": "İlk buluşmada nereye gitmek isterdim?",
+      "choices": {
+        "A": "Lüks bir restoranda akşam yemeği",
+        "B": "Doğa yürüyüşü",
+        "C": "Evde rahat bir film gecesi"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 2,
+      "character": "Zarif ve Klas Kadın",
+      "difficulty_level": 3,
+      "hint": "Sadelik benim için değil. Detaylarda saklı olan güzellikleri fark eden birini isterim!",
+      "question": "Bana en iyi hediye ne olurdu?",
+      "choices": {
+        "A": "Bir buket papatya",
+        "B": "El yapımı bir hediye",
+        "C": "Marka bir çanta"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 3,
+      "character": "Zarif ve Klas Kadın",
+      "difficulty_level": 3,
+      "hint": "Duygusal ama yüzeysel olmayan filmler beni etkiler. İçinde derin bir anlam barındırmalı.",
+      "question": "Hangi film türü beni daha çok etkiler?",
+      "choices": {
+        "A": "Romantik-Dram",
+        "B": "Bilim Kurgu",
+        "C": "Korku"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 4,
+      "character": "Zarif ve Klas Kadın",
+      "difficulty_level": 3,
+      "hint": "Beni etkilemek istiyorsan, konuşmalarımız sıradan olmamalı!",
+      "question": "Benimle en iyi nasıl iletişim kurarsın?",
+      "choices": {
+        "A": "Nazik ve özenli bir konuşmayla",
+        "B": "Direkt ve hızlı mesajlarla",
+        "C": "Esprili ve rahat bir dille"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 5,
+      "character": "Zarif ve Klas Kadın",
+      "difficulty_level": 3,
+      "hint": "Rahatlık önemli, ama stil her zaman bir adım önde olmalı!",
+      "question": "Nasıl bir giyim tarzı benim için daha çekici olurdu?",
+      "choices": {
+        "A": "Takım elbise ve klasik tarz",
+        "B": "Spor kıyafetler",
+        "C": "Rahat ve günlük kombinler"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 6,
+      "character": "Zarif ve Klas Kadın",
+      "difficulty_level": 3,
+      "hint": "Gerçek bir şıklık, özgüvenle tamamlanır!",
+      "question": "Bir erkeğin hangi özelliği beni en çok etkiler?",
+      "choices": {
+        "A": "Özgüveni ve duruşu",
+        "B": "Kaslı ve atletik olması",
+        "C": "Görünüşe çok önem vermesi"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 7,
+      "character": "Zarif ve Klas Kadın",
+      "difficulty_level": 3,
+      "hint": "Tatilde de lüks ve kalite benim için vazgeçilmezdir!",
+      "question": "Nasıl bir tatil benim için daha cazip olurdu?",
+      "choices": {
+        "A": "Lüks bir tatil köyü",
+        "B": "Macera dolu bir doğa kampı",
+        "C": "Sırt çantasıyla dünya turu"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 8,
+      "character": "Zarif ve Klas Kadın",
+      "difficulty_level": 3,
+      "hint": "Beni etkilemek istiyorsan, klasikleşmiş şeylerin ötesine geçmelisin!",
+      "question": "Beni bir akşam yemeğine çıkarsan nasıl bir restoran seçerdin?",
+      "choices": {
+        "A": "Geleneksel bir Türk restoranı",
+        "B": "Modern ve şık bir gurme restoranı",
+        "C": "Fast-food zinciri bir restoran"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 9,
+      "character": "Zarif ve Klas Kadın",
+      "difficulty_level": 3,
+      "hint": "Kibar ve etkileyici biri her zaman dikkatimi çeker!",
+      "question": "İlk karşılaşmada beni nasıl etkilersin?",
+      "choices": {
+        "A": "Özgüvenli bir duruş ve nazik sözlerle",
+        "B": "Komik ve rahat bir tavırla",
+        "C": "Beni tamamen görmezden gelerek"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 10,
+      "character": "Zarif ve Klas Kadın",
+      "difficulty_level": 3,
+      "hint": "Beni en çok etkileyen şey, birinin nasıl davrandığıdır, ne söylediği değil!",
+      "question": "Bir flörtte en önemli şey nedir?",
+      "choices": {
+        "A": "Dürüstlük ve güven",
+        "B": "Sürekli sürprizler yapmak",
+        "C": "Dış görünüşe önem vermek"
+      },
+      "correct_answer": "A"
+    }
+]
