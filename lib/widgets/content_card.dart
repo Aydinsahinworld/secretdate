@@ -341,19 +341,7 @@ class _ContentCardState extends State<ContentCard> with SingleTickerProviderStat
     if (contentScreen == null) return;
 
     // Kalp kontrolü yap ve oyunu başlat
-    contentScreen.checkAndStartGame(widget.item).then((canStart) {
-      if (canStart) {
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => GameScreen(
-              item: widget.item,
-              isMale: widget.isMale,
-            ),
-          ),
-        );
-      }
-    });
+    contentScreen.checkAndStartGame(widget.item);
   }
 
   // Büyütülmüş kartın içeriği

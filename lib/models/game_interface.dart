@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 // Oyun türlerini tanımlayan enum
 enum GameType {
   dialog,    // Diyalog oyunu
+  imageReveal, // Resim açma oyunu
   matching,  // Eşleştirme oyunu
   // Diğer oyun türleri buraya eklenecek
 }
@@ -25,7 +26,7 @@ abstract class GameInterface {
   bool isGameComplete();
   
   // Oyunu temizleme/sıfırlama
-  void dispose();
+  void disposeGame();
   
   // Kalan can sayısını alma
   int getRemainingHearts();

@@ -1,44 +1,110 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
-import 'content_item.dart';
+import '../models/content_item.dart';
+import 'dart:math';
 
 class DialogQuestion {
-  final String character;
-  final int difficultyLevel;
-  final String hint;
   final String question;
   final Map<String, String> choices;
   final String correctAnswer;
+  final String? hint;
 
   DialogQuestion({
-    required this.character,
-    required this.difficultyLevel,
-    required this.hint,
     required this.question,
     required this.choices,
     required this.correctAnswer,
+    this.hint,
   });
 
   factory DialogQuestion.fromJson(Map<String, dynamic> json) {
+    // Null kontrolü yaparak güvenli bir şekilde dönüştür
     return DialogQuestion(
-      character: json['character'] as String,
-      difficultyLevel: json['difficulty_level'] as int,
-      hint: json['hint'] as String,
-      question: json['question'] as String,
-      choices: Map<String, String>.from(json['choices'] as Map),
-      correctAnswer: json['correct_answer'] as String,
+      question: json['question'] ?? 'Soru bulunamadı',
+      choices: json['choices'] != null 
+          ? Map<String, String>.from(json['choices'])
+          : {'A': 'Seçenek bulunamadı'},
+      correctAnswer: json['correctAnswer'] ?? 'A',
+      hint: json['hint'],
     );
   }
 }
 
 class DialogGameData {
+  // Belirli bir klasördeki tüm JSON dosyalarını listeleyen yardımcı metod
+  static Future<List<String>> _listJsonFiles(String basePath) async {
+    try {
+      // AssetManifest.json'u kullanarak tüm varlıkları listele
+      final manifestContent = await rootBundle.loadString('AssetManifest.json');
+      final Map<String, dynamic> manifestMap = json.decode(manifestContent);
+      
+      // Belirtilen klasördeki tüm JSON dosyalarını filtrele
+      final jsonFiles = manifestMap.keys
+          .where((String key) => 
+              key.startsWith(basePath) && 
+              key.endsWith('.json') &&
+              key.contains('level_'))
+          .toList();
+      
+      if (jsonFiles.isEmpty) {
+        print('Uyarı: $basePath klasöründe hiç JSON dosyası bulunamadı.');
+        
+        // Sabit bir dosya listesi oluştur (level_001.json'dan level_009.json'a kadar)
+        List<String> defaultFiles = [];
+        for (int i = 1; i <= 9; i++) {
+          final fileName = '$basePath/level_${i.toString().padLeft(3, '0')}.json';
+          defaultFiles.add(fileName);
+        }
+        
+        // Dosyaların varlığını kontrol et
+        List<String> existingFiles = [];
+        for (String file in defaultFiles) {
+          try {
+            await rootBundle.loadString(file);
+            existingFiles.add(file);
+          } catch (e) {
+            // Dosya bulunamadı, atla
+          }
+        }
+        
+        print('Varsayılan dosyalardan bulunanlar: $existingFiles');
+        return existingFiles;
+      }
+      
+      print('Bulunan JSON dosyaları: $jsonFiles'); // Debug için
+      return jsonFiles;
+    } catch (e) {
+      print('JSON dosyaları listelenirken hata: $e');
+      
+      // Hata durumunda, sadece level_001.json'u döndür
+      final defaultFile = '$basePath/level_001.json';
+      return [defaultFile];
+    }
+  }
+  
+  // Rastgele bir JSON dosyası seçen metod
+  static Future<String> _selectRandomJsonFile(String gender, String category) async {
+    final basePath = 'assets/data/dialog_games/$gender/$category';
+    final jsonFiles = await _listJsonFiles(basePath);
+    
+    if (jsonFiles.isEmpty) {
+      throw Exception('Hiç JSON dosyası bulunamadı: $basePath');
+    }
+    
+    // Rastgele bir dosya seç
+    final random = Random();
+    final randomFile = jsonFiles[random.nextInt(jsonFiles.length)];
+    
+    print('Seçilen rastgele JSON dosyası: $randomFile'); // Debug için
+    return randomFile;
+  }
+
   static Future<List<DialogQuestion>> loadQuestions({
     required ContentType type,
     required bool isMale,
     required int level,
   }) async {
     try {
-      // JSON dosya yolunu oluştur
+      // Cinsiyet ve kategori bilgilerini belirle
       final gender = isMale ? 'male' : 'female';
       
       // Kategori adını belirle
@@ -49,21 +115,88 @@ class DialogGameData {
         category = type.toString().split('.').last.toLowerCase();
       }
       
-      // Level doğrudan zorluk seviyesini temsil eder (1-9 arası)
-      final fileName = 'level_${level.toString().padLeft(3, '0')}.json';
-      final path = 'assets/data/dialog_games/$gender/$category/$fileName';
+      // Bölüm numarasına göre JSON dosyasını seç
+      String path;
+      
+      // Eğer bölüm numarası 1, 4, 7 ise (her satırın ilk bölümü)
+      // rastgele bir JSON dosyası seç
+      if (level % 3 == 1) {
+        path = await _selectRandomJsonFile(gender, category);
+      } else {
+        // Diğer bölümler için sabit JSON dosyası kullan
+        final fileName = 'level_${level.toString().padLeft(3, '0')}.json';
+        path = 'assets/data/dialog_games/$gender/$category/$fileName';
+      }
 
       print('JSON dosya yolu: $path'); // Debug için
 
       // JSON dosyasını oku
       final jsonString = await rootBundle.loadString(path);
-      final List<dynamic> jsonList = json.decode(jsonString);
+      final dynamic jsonData = json.decode(jsonString);
+      
+      // JSON formatını kontrol et ve uyarla
+      List<dynamic> jsonList;
+      if (jsonData is List) {
+        // Doğrudan liste formatı
+        jsonList = jsonData;
+      } else if (jsonData is Map && jsonData.containsKey('questions')) {
+        // Sorular bir alt anahtar içinde
+        jsonList = jsonData['questions'];
+      } else {
+        // Tek bir soru objesi
+        jsonList = [jsonData];
+      }
+      
+      print('JSON formatı: ${jsonList.length} soru bulundu'); // Debug için
 
       // JSON'ı DialogQuestion listesine dönüştür
       return jsonList.map((json) => DialogQuestion.fromJson(json)).toList();
     } catch (e) {
       print('Dialog soruları yüklenirken hata: $e');
-      rethrow; // Hatayı yukarı fırlat
+      
+      // Hata durumunda, varsayılan olarak level_001.json'u yüklemeyi dene
+      try {
+        final gender = isMale ? 'male' : 'female';
+        String category;
+        if (type == ContentType.karakter) {
+          category = 'character';
+        } else {
+          category = type.toString().split('.').last.toLowerCase();
+        }
+        
+        final defaultPath = 'assets/data/dialog_games/$gender/$category/level_001.json';
+        print('Varsayılan JSON dosyası deneniyor: $defaultPath');
+        
+        final jsonString = await rootBundle.loadString(defaultPath);
+        final dynamic jsonData = json.decode(jsonString);
+        
+        // JSON formatını kontrol et ve uyarla
+        List<dynamic> jsonList;
+        if (jsonData is List) {
+          // Doğrudan liste formatı
+          jsonList = jsonData;
+        } else if (jsonData is Map && jsonData.containsKey('questions')) {
+          // Sorular bir alt anahtar içinde
+          jsonList = jsonData['questions'];
+        } else {
+          // Tek bir soru objesi
+          jsonList = [jsonData];
+        }
+        
+        return jsonList.map((json) => DialogQuestion.fromJson(json)).toList();
+      } catch (fallbackError) {
+        print('Varsayılan JSON dosyası da yüklenemedi: $fallbackError');
+        
+        // Son çare olarak sabit bir soru listesi döndür
+        return [
+          DialogQuestion(
+            question: 'Oyun verisi yüklenemedi. Lütfen daha sonra tekrar deneyin.',
+            choices: {'A': 'Tamam'},
+            correctAnswer: 'A',
+            hint: 'Teknik bir sorun oluştu.',
+          )
+        ];
+      }
     }
   }
 } 

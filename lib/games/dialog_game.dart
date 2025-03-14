@@ -40,7 +40,7 @@ class DialogGame extends StatefulWidget implements GameInterface {
   }
 
   @override
-  void dispose() {
+  void disposeGame() {
     // Boş bırak, state'de dispose edilecek
   }
 

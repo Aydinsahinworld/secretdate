@@ -3,6 +3,7 @@ import 'dart:ui';
 import '../models/game_interface.dart';
 import '../models/dialog_game_data.dart';
 import '../games/dialog_game.dart';
+import '../games/image_reveal_game.dart';
 import '../widgets/loading_screen.dart';
 import '../models/content_item.dart';
 import '../models/player_gender.dart';
@@ -12,11 +13,13 @@ import 'dart:async';
 class GameScreen extends StatefulWidget {
   final ContentItem item;
   final bool isMale;
+  final GameType gameType;
 
   const GameScreen({
     Key? key,
     required this.item,
     required this.isMale,
+    required this.gameType,
   }) : super(key: key);
 
   @override
@@ -57,42 +60,20 @@ class _GameScreenState extends State<GameScreen> {
     });
 
     try {
-      // Soruları yükle
-      print('Sorular yükleniyor: ${widget.item.type}, ${widget.isMale}, ${widget.item.level}');
-      final questions = await DialogGameData.loadQuestions(
-        type: widget.item.type,
-        isMale: widget.isMale,
-        level: widget.item.level,
-      );
-
-      if (!mounted) return;
-
-      if (questions.isEmpty) {
-        throw Exception('Bu bölüm için soru bulunamadı.');
+      // Oyun türüne göre uygun oyunu başlat
+      switch (widget.gameType) {
+        case GameType.dialog:
+          await _initializeDialogGame();
+          break;
+        case GameType.imageReveal:
+          await _initializeImageRevealGame();
+          break;
+        case GameType.matching:
+          await _initializeMatchingGame();
+          break;
+        default:
+          await _initializeDialogGame();
       }
-
-      print('Yüklenen soru sayısı: ${questions.length}');
-
-      // Oyunu oluştur
-      setState(() {
-        _game = DialogGame(
-          questions: questions,
-          type: widget.item.type,
-          onBlurLevelChanged: (blurLevel) {
-            if (mounted) {
-              setState(() {
-                widget.item.blurLevel = blurLevel;
-              });
-            }
-          },
-          onGameComplete: (isWon) async {
-            if (isWon) {
-              await _markLevelAsCompleted();
-            }
-          },
-          isMale: widget.isMale,
-        );
-      });
 
       // Yükleme animasyonunu tamamla
       if (mounted) {
@@ -101,25 +82,103 @@ class _GameScreenState extends State<GameScreen> {
         });
       }
 
-      // Minimum yükleme süresi için bekle
-      await Future.delayed(const Duration(seconds: 2));
+      // Kısa bir gecikme sonra yükleme ekranını kapat
+      await Future.delayed(const Duration(milliseconds: 500));
 
       if (mounted) {
         setState(() {
           _isLoading = false;
         });
       }
+
+      // Oyunu başlat
+      await _game.initialize();
     } catch (e) {
-      print('Hata oluştu: $e');
+      print('Oyun başlatma hatası: $e');
       if (mounted) {
         setState(() {
-          _isLoading = false;
           _errorMessage = e.toString();
+          _isLoading = false;
         });
       }
     } finally {
       _loadingTimer?.cancel();
     }
+  }
+
+  // Diyalog oyununu başlat
+  Future<void> _initializeDialogGame() async {
+    // Soruları yükle
+    print('Sorular yükleniyor: ${widget.item.type}, ${widget.isMale}, ${widget.item.level}');
+    final questions = await DialogGameData.loadQuestions(
+      type: widget.item.type,
+      isMale: widget.isMale,
+      level: widget.item.level,
+    );
+
+    if (!mounted) return;
+
+    if (questions.isEmpty) {
+      throw Exception('Bu bölüm için soru bulunamadı.');
+    }
+
+    print('Yüklenen soru sayısı: ${questions.length}');
+
+    // Oyunu oluştur
+    setState(() {
+      _game = DialogGame(
+        questions: questions,
+        type: widget.item.type,
+        onBlurLevelChanged: (blurLevel) {
+          if (mounted) {
+            setState(() {
+              widget.item.blurLevel = blurLevel;
+            });
+          }
+        },
+        onGameComplete: (isWon) async {
+          if (isWon) {
+            await _markLevelAsCompleted();
+          }
+        },
+        isMale: widget.isMale,
+      );
+    });
+  }
+
+  // Resim açma oyununu başlat
+  Future<void> _initializeImageRevealGame() async {
+    // Resim açma oyunu widget'ını oluştur
+    final imageRevealGame = ImageRevealGame(
+      item: widget.item,
+      onBlurLevelChanged: (blurLevel) {
+        if (mounted) {
+          setState(() {
+            widget.item.blurLevel = blurLevel;
+          });
+        }
+      },
+      onGameComplete: (isWon) async {
+        if (isWon) {
+          await _markLevelAsCompleted();
+        }
+      },
+      isMale: widget.isMale,
+    );
+    
+    setState(() {
+      _game = imageRevealGame;
+    });
+  }
+
+  // Eşleştirme oyununu başlat
+  Future<void> _initializeMatchingGame() async {
+    // Şimdilik basit bir mesaj göster
+    // Bu kısım daha sonra gerçek oyunla değiştirilecek
+    setState(() {
+      _errorMessage = "Eşleştirme oyunu henüz uygulanmadı. Yakında eklenecek!";
+    });
+    throw Exception('Eşleştirme oyunu henüz uygulanmadı.');
   }
 
   Future<void> _markLevelAsCompleted() async {

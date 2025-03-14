@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/content_item.dart';
+import '../models/game_interface.dart'; // GameType enum'u için
 import '../widgets/content_card.dart';
 import '../data/sample_data.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -468,11 +469,46 @@ class ContentScreenState extends State<ContentScreen> {
     final currentPage = (item.level - 1) ~/ _itemsPerPage;
     
     if (await _hasEnoughHeartsForPage(currentPage)) {
+      // Oyun türünü belirle
+      final gameType = getGameTypeForLevel(item.level);
+      
+      // Oyunu başlat
+      if (mounted) {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => GameScreen(
+              item: item,
+              isMale: widget.isMale,
+              gameType: gameType,
+            ),
+          ),
+        );
+      }
       return true;
     } else {
       final missingHearts = await _getMissingHeartsCount(currentPage);
       _showInsufficientHeartsDialog(currentPage, missingHearts);
       return false;
+    }
+  }
+
+  // Bölüm numarasına göre oyun türünü belirleyen metod
+  GameType getGameTypeForLevel(int level) {
+    // Her sayfada 9 bölüm var
+    // Her satırda 3 bölüm var
+    // Satırdaki pozisyonu hesapla (0, 1 veya 2)
+    int positionInRow = (level - 1) % 3;
+    
+    switch (positionInRow) {
+      case 0: // 1., 4., 7. bölümler (her satırın ilk bölümü)
+        return GameType.dialog;
+      case 1: // 2., 5., 8. bölümler (her satırın ortasındaki bölüm)
+        return GameType.imageReveal;
+      case 2: // 3., 6., 9. bölümler (her satırın son bölümü)
+        return GameType.matching;
+      default:
+        return GameType.dialog; // Varsayılan olarak diyalog oyunu
     }
   }
 
